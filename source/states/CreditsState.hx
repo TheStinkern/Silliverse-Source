@@ -39,6 +39,17 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Silliverse Team'],
+			['Sam',		'doble',		'Main Director',					 'https://x.com/sam_strawberrie',		'2A8F46'],
+			['TimmyBurter',				'tim',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
+			['Stinko',				'stinkern',			'Main coder',						 'https://stinkernn.carrd.co',		'777777'],
+			['FloraT1P',				'flora',			'Composer',						 'https://www.youtube.com/@gay_muffet',		'EF00FF'],
+			/*['Gangter',				'gangter',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
+			['Nik',				'nik',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
+			['Quinn',				'quinn',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
+			['Enigma',				'enigma',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
+			['an idiot on the internet',				'funnymann',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],*/
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer and Head of Psych Engine',					 'https://ko-fi.com/shadowmario',		'444444'],
 			['Riveren',				'riveren',			'Main Artist/Animator of Psych Engine',						 'https://twitter.com/riverennn',		'14967B'],
