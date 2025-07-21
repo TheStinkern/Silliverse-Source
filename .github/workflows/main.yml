@@ -46,7 +46,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Install Haxelib
         run: |
-          haxelib setup C:/haxelib
+          haxelib setup C:/a/Silliverse-Source/haxelib
           haxelib install hxcpp > /dev/null --quiet
           .\"setup/setup-windows.bat"
         shell: cmd
@@ -60,7 +60,6 @@ jobs:
           cd ../..
       - name: Compile
         run: |
-          Remove-Item -Force assets/preload/gameRenders/renderlinux.sh
           haxelib run lime build windows -D ${{ inputs.buildFlags || 'commit' }}
       - name: Clear Previous Cache
         uses: actions/github-script@main
