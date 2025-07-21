@@ -2,13 +2,13 @@
 color 0a
 cd ..
 @echo on
-echo Installing dependencies.
-haxelib install lime
-haxelib install openfl
-haxelib install flixel
-haxelib install flixel-addons
-haxelib install flixel-ui
-haxelib install flixel-tools
+echo Installing dependencies?
+haxelib install lime 8.1.3
+haxelib install openfl 9.3.3
+haxelib install flixel 5.6.2
+haxelib install flixel-addons 3.2.3
+haxelib install flixel-tools 1.5.1
+haxelib install flixel-ui 2.6.1
 haxelib install SScript
 haxelib install hxCodec
 haxelib install tjson
