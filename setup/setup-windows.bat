@@ -12,6 +12,8 @@ haxelib install flixel-ui 2.6.1
 haxelib install SScript
 haxelib install hxCodec
 haxelib install tjson
+haxelib install hxcpp
+haxelib install hxcpp-debug-server
 haxelib git flxanimate https://github.com/ShadowMario/flxanimate dev
 haxelib git linc_luajit https://github.com/superpowers04/linc_luajit
 haxelib git hxdiscord_rpc https://github.com/MAJigsaw77/hxdiscord_rpc
