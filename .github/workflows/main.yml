@@ -97,7 +97,7 @@ jobs:
             export/release/windows/obj/
           key: cache-windows-build
       - name: Publish Artifact
-        uses: @main
+        uses: actions/upload-artifact@main
         with:
           name: windowsBuild
           path: export/release/windows/bin
