@@ -43,7 +43,10 @@
     {
       "name": "SScript",
       "type": "haxelib",
-      "version": "21.0.0"
+      "dir": null,
+      "ref": "main",
+      "version": "7.7.0",
+      "url": "https://github.com/CCobaltDev/SScript-Archive"
     },
     {
       "name": "hxcpp-debug-server",
