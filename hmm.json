@@ -41,13 +41,6 @@
       "version": null
     },
     {
-      "name": "SScript",
-      "type": "git",
-      "dir": null,
-      "ref": "main",
-      "url": "https://github.com/CCobaltDev/SScript-Archive"
-    },
-    {
       "name": "hxcpp-debug-server",
       "type": "haxelib",
       "version": null
@@ -56,6 +49,13 @@
       "name": "tjson",
       "type": "haxelib",
       "version": null
+    },
+    {
+      "name": "SScript",
+      "type": "git",
+      "dir": null,
+      "ref": "main",
+      "url": "https://github.com/CCobaltDev/SScript-Archive"
     },
     {
       "name": "hxdiscord_rpc",
