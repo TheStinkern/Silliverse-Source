@@ -9,7 +9,7 @@ haxelib install flixel 5.6.2
 haxelib install flixel-addons 3.2.3
 haxelib install flixel-tools 1.5.1
 haxelib install flixel-ui 2.6.1
-haxelib install SScript 17.1.618
+haxelib install SScript 21.0.0
 haxelib install hxCodec
 haxelib install tjson
 haxelib install hxcpp
