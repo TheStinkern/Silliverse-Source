@@ -42,10 +42,9 @@
     },
     {
       "name": "SScript",
-      "type": "haxelib",
+      "type": "git",
       "dir": null,
       "ref": "main",
-      "version": "7.7.0",
       "url": "https://github.com/CCobaltDev/SScript-Archive"
     },
     {

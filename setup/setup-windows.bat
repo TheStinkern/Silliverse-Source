@@ -9,7 +9,7 @@ haxelib install flixel 5.6.2
 haxelib install flixel-addons 3.2.3
 haxelib install flixel-tools 1.5.1
 haxelib install flixel-ui 2.6.1
-haxelib git SScript https://github.com/CCobaltDev/SScript-Archive 7.7.0
+haxelib git SScript https://github.com/CCobaltDev/SScript-Archive main
 haxelib install hxCodec
 haxelib install tjson
 haxelib install hxcpp
