@@ -54,8 +54,8 @@
       "name": "SScript",
       "type": "git",
       "dir": null,
-      "ref": "main",
-      "url": "https://github.com/CCobaltDev/SScript-Archive"
+      "ref": "src",
+      "url": "https://github.com/VS-Null/SScript"
     },
     {
       "name": "hxdiscord_rpc",
