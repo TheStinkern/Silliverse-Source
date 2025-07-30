@@ -31,7 +31,7 @@ import states.editors.CharacterEditorState;
 
 import substates.PauseSubState;
 import substates.GameOverSubstate;
-
+import shaders.*;
 #if !flash
 import flixel.addons.display.FlxRuntimeShader;
 import openfl.filters.ShaderFilter;
@@ -691,6 +691,7 @@ class PlayState extends MusicBeatState
 		newText.disableTime = 6;
 		newText.alpha = 1;
 		newText.setPosition(10, 8 - newText.height);
+		newText.font = "windowsFont.ttf";
 
 		luaDebugGroup.forEachAlive(function(spr:psychlua.DebugLuaText) {
 			spr.y += newText.height + 2;
