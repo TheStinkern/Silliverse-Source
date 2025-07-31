@@ -42,7 +42,6 @@ import flixel.input.keyboard.FlxKey;
 import flixel.input.gamepad.FlxGamepadInputID;
 
 import haxe.Json;
-import shaders.*;
 
 class FunkinLua {
 	public var lua:State = null;
@@ -50,13 +49,8 @@ class FunkinLua {
 	public var scriptName:String = '';
 	public var modFolder:String = null;
 	public var closed:Bool = false;
-	public var camTarget:FlxCamera;
 	#if HSCRIPT_ALLOWED
 	public var hscript:HScript = null;
-	#end
-
-	#if (MODS_ALLOWED && sys)
-	private static var storedFilters:Map<String, ShaderFilter> = []; // for a few shader functions
 	#end
 
 	public var callbacks:Map<String, Dynamic> = new Map<String, Dynamic>();
@@ -255,19 +249,6 @@ class FunkinLua {
 			game.callOnHScript(funcName, args, ignoreStops, excludeScripts, excludeValues);
 			return true;
 		});
-
-		// shader thingy
-		if (ClientPrefs.shaders) {
-			Lua_helper.add_callback("addGlitchEffect", function(camera:String,waveSpeed:Float = 2,waveFrq:Float = 5,waveAmp:Float = 0.1) {
-				PlayState.instance.addShaderToCamera(camera, new GlitchEffect(waveSpeed,waveFrq,waveAmp));
-			});
-			registerFunction("clearEffects", function(camera:String) {
-				PlayState.instance.clearShaderFromCamera(camera);
-			});
-			registerFunction("addBlockedGlitchEffect", function(camera:String, res:Float = 1280, time:Float = 1, colorMult:Float = 1, colorTransform:Bool = true) {
-				if (colorTransform) PlayState.instance.addShaderToCamera(camera, new BlockedGlitchEffect(res, time, colorMult, colorTransform));
-			});
-		}
 
 		Lua_helper.add_callback(lua, "callScript", function(luaFile:String, funcName:String, ?args:Array<Dynamic> = null) {
 			if(args == null){
@@ -1643,22 +1624,6 @@ class FunkinLua {
 			luaTrace('$funcName: Couldnt find object: $vars', false, false, FlxColor.RED);
 		}
 	}
-	static function cameraFromString(cam:String):FlxCamera {
-		switch(cam.toLowerCase()) 
-		{
-			case 'camhud' | 'hud': return PlayState.instance.camHUD;
-			case 'camother' | 'other': return PlayState.instance.camOther;
-		}
-		return PlayState.instance.camGame;
-	}
-
-		// alias for above, helper function basically
-	public static function getCam(obj:String):Dynamic {
-    if (obj.toLowerCase().trim() == "global")
-		  return FlxG.game;
-	  return cameraFromString(obj);
-  }
-
 	public static function luaTrace(text:String, ignoreCheck:Bool = false, deprecated:Bool = false, color:FlxColor = FlxColor.WHITE) {
 		if(ignoreCheck || getBool('luaDebugMode')) {
 			if(deprecated && !getBool('luaDeprecatedWarnings')) {

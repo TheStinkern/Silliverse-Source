@@ -214,6 +214,8 @@ class PlayState extends MusicBeatState
 	public var songMisses:Int = 0;
 	public var scoreTxt:FlxText;
 	var timeTxt:FlxText;
+	var gameWatermark:FlxText;
+	var devWatermark:FlxText;
 	var scoreTxtTween:FlxTween;
 
 	public static var campaignScore:Int = 0;
@@ -483,6 +485,17 @@ class PlayState extends MusicBeatState
 		if(ClientPrefs.data.downScroll) timeTxt.y = FlxG.height - 44;
 		if(ClientPrefs.data.timeBarType == 'Song Name') timeTxt.text = SONG.song;
 
+		devWatermark = new FlxText((FlxG.width / 2), (FlxG.height / 2), 0, "|| Developer Build ||", 48);
+		devWatermark.alignment = FlxTextAlign.CENTER;
+		devWatermark.setFormat(Paths.font("windowsFont.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		devWatermark.scrollFactor.set();
+		devWatermark.alpha = 0.5;
+		devWatermark.blend = "overlay";
+		devWatermark.borderSize = 0;
+		devWatermark.x = (FlxG.width / 2) - (devWatermark.width / 2);
+		devWatermark.y = (FlxG.height / 2);
+		uiGroup.add(devWatermark);
+
 		timeBar = new Bar(0, timeTxt.y + (timeTxt.height / 4), 'timeBar', function() return songPercent, 0, 1);
 		timeBar.scrollFactor.set();
 		timeBar.screenCenter(X);
@@ -537,6 +550,13 @@ class PlayState extends MusicBeatState
 		healthBar.alpha = ClientPrefs.data.healthBarAlpha;
 		reloadHealthBarColors();
 		uiGroup.add(healthBar);
+
+		gameWatermark = new FlxText(0, healthBar.y + 65, 0, 'D&B: Silliverse - ' + songName, 12);
+		gameWatermark.setFormat(Paths.font("vcr.ttf"), 12, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		gameWatermark.scrollFactor.set();
+		gameWatermark.alpha = 1;
+		gameWatermark.borderSize = 1.3;
+		uiGroup.add(gameWatermark);
 
 		iconP1 = new HealthIcon(boyfriend.healthIcon, true);
 		iconP1.y = healthBar.y - 75;
@@ -692,7 +712,7 @@ class PlayState extends MusicBeatState
 		newText.alpha = 1;
 		newText.setPosition(10, 8 - newText.height);
 		newText.font = "windowsFont.ttf";
-
+		newText.borderSize = 0;
 		luaDebugGroup.forEachAlive(function(spr:psychlua.DebugLuaText) {
 			spr.y += newText.height + 2;
 		});
