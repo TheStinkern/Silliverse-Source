@@ -43,7 +43,7 @@ class CreditsState extends MusicBeatState
 			['Sam',		'doble',		'Main Director',					 'https://x.com/sam_strawberrie',		'2A8F46'],
 			['TimmyBurter',				'tim',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
 			['Stinko',				'stinkern',			'Main coder',						 'https://stinkernn.carrd.co',		'777777'],
-			['FloraT1P',				'flora',			'Composer',						 'https://www.youtube.com/@gay_muffet',		'EF00FF'],
+			['FloraT1P',				'flora',			'Composer',						 'https://x.com/floracolonthree',		'EF00FF'],
 			['blud3332',				'blud',			'Artist, Animator',						 'https://x.com/blud3332',		'c68278'],
 			['jon',				'jon',			'Artist, Animator',						 'https://x.com/jonchumbbum',		'2e3b70'],
 			/*['Gangter',				'gangter',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
