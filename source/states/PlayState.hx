@@ -483,7 +483,6 @@ class PlayState extends MusicBeatState
 		timeTxt.borderSize = 2;
 		timeTxt.visible = updateTime = showTime;
 		if(ClientPrefs.data.downScroll) timeTxt.y = FlxG.height - 44;
-		if(ClientPrefs.data.timeBarType == 'Song Name') timeTxt.text = SONG.song;
 
 		devWatermark = new FlxText((FlxG.width / 2), (FlxG.height / 2), 0, "|| Developer Build ||", 48);
 		devWatermark.alignment = FlxTextAlign.CENTER;
