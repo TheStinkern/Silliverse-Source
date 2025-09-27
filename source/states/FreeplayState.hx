@@ -10,6 +10,7 @@ import objects.MusicPlayer;
 import substates.GameplayChangersSubstate;
 import substates.ResetScoreSubState;
 
+import flixel.addons.display.FlxBackdrop;
 import flixel.math.FlxMath;
 
 class FreeplayState extends MusicBeatState
@@ -22,6 +23,7 @@ class FreeplayState extends MusicBeatState
 	var curDifficulty:Int = -1;
 	private static var lastDifficultyName:String = Difficulty.getDefault();
 
+	var checker:FlxBackdrop;
 	var scoreBG:FlxSprite;
 	var scoreText:FlxText;
 	var diffText:FlxText;
@@ -93,6 +95,14 @@ class FreeplayState extends MusicBeatState
 		add(bg);
 		bg.screenCenter();
 
+		var checker:FlxBackdrop = new FlxBackdrop(Paths.image('checkeredBG'));
+		checker.velocity.set(50, 90);
+		checker.alpha = 0.4;
+		checker.antialiasing = false;
+		checker.scrollFactor.set(0,0.4);
+		checker.updateHitbox();
+		add(checker);
+
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
 
@@ -120,7 +130,7 @@ class FreeplayState extends MusicBeatState
 
 			// songText.x += 40;
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
-			// songText.screenCenter(X);
+			songText.screenCenter(X);
 		}
 		WeekData.setDirectoryFromWeek();
 
@@ -136,6 +146,8 @@ class FreeplayState extends MusicBeatState
 		add(diffText);
 
 		add(scoreText);
+
+
 
 
 		missingTextBG = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
@@ -321,6 +333,8 @@ class FreeplayState extends MusicBeatState
 				Mods.currentModDirectory = songs[curSelected].folder;
 				var poop:String = Highscore.formatSong(songs[curSelected].songName.toLowerCase(), curDifficulty);
 				PlayState.SONG = Song.loadFromJson(poop, songs[curSelected].songName.toLowerCase());
+				//PlayState.SONG = Song.loadFromJson(poop, songs[curSelected].bpm);
+
 				if (PlayState.SONG.needsVoices)
 				{
 					vocals = new FlxSound().loadEmbedded(Paths.voices(PlayState.SONG.song));
@@ -422,7 +436,18 @@ class FreeplayState extends MusicBeatState
 		}
 		vocals = null;
 	}
+/*
+	override function beatHit()
+	{
+		if(lastBeatHit >= curBeat) {
+			//trace('BEAT HIT: ' + curBeat + ', LAST HIT: ' + lastBeatHit);
+			return;
+		}
 
+		super.beatHit();
+		lastBeatHit = curBeat;
+	}
+*/
 	function changeDiff(change:Int = 0)
 	{
 		if (player.playingMusic)

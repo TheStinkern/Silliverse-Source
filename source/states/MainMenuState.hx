@@ -3,6 +3,7 @@ package states;
 import flixel.FlxObject;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.effects.FlxFlicker;
+import flixel.ui.FlxButton;
 import lime.app.Application;
 import states.editors.MasterEditorMenu;
 import options.OptionsState;
@@ -17,6 +18,7 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
+		'discord',
 		'credits',
 		'options'
 	];
@@ -26,6 +28,7 @@ class MainMenuState extends MusicBeatState
 
 	override function create()
 	{
+		FlxG.mouse.visible = true;
 		#if MODS_ALLOWED
 		Mods.pushGlobalMods();
 		#end
@@ -83,6 +86,13 @@ class MainMenuState extends MusicBeatState
 			menuItem.updateHitbox();
 			menuItem.screenCenter(X);
 		}
+
+		/*var discordButton = new FlxButton(0,0, "Discord Server", onButtonClicked); // opens a link leading to the discord 
+		discordButton.screenCenter();
+		discordButton.x = 720;
+		add(discordButton);
+		discordButton.loadGraphic("assets/images/mainmenu/discordButton.png");*/
+
 		var silliVer:FlxText = new FlxText(12, FlxG.height - 64, 0, "Silliverse " + psychEngineVersion, 12);
 		silliVer.scrollFactor.set();
 		silliVer.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -115,6 +125,13 @@ class MainMenuState extends MusicBeatState
 
 	var selectedSomethin:Bool = false;
 
+	function onButtonClicked()
+	{
+		trace('Opening Discord Server');
+		CoolUtil.browserLoad('https://discord.gg/YjkApuGjmD');
+		FlxG.sound.play(Paths.sound('confirmMenu'));
+	}
+
 	override function update(elapsed:Float)
 	{
 		if (FlxG.sound.music.volume < 0.8)
@@ -145,6 +162,11 @@ class MainMenuState extends MusicBeatState
 				if (optionShit[curSelected] == 'donate')
 				{
 					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
+				}
+				else if (optionShit[curSelected] == 'discord')
+				{
+					CoolUtil.browserLoad('https://discord.gg/YjkApuGjmD');
+					trace('Opening Discord Server');
 				}
 				else
 				{

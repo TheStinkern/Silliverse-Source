@@ -30,6 +30,8 @@ typedef TitleData =
 	gfx:Float,
 	gfy:Float,
 	backgroundSprite:String,
+	bumpIntensity:Float,
+	logoSprite:String,
 	bpm:Float
 }
 
@@ -116,7 +118,7 @@ class TitleState extends MusicBeatState
 		Highscore.load();
 
 		// IGNORE THIS!!!
-		titleJSON = tjson.TJSON.parse(Paths.getTextFromFile('images/gfDanceTitle.json'));
+		titleJSON = tjson.TJSON.parse(Paths.getTextFromFile('data/titleModifications.json'));
 
 		#if TITLE_SCREEN_EASTER_EGG
 		if (FlxG.save.data.psychDevsEasterEgg == null) FlxG.save.data.psychDevsEasterEgg = ''; //Crash prevention
@@ -206,12 +208,9 @@ class TitleState extends MusicBeatState
 		add(bg);
 
 		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
-		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
+		logoBl.loadGraphic(Paths.image(titleJSON.logoSprite));
 		logoBl.antialiasing = ClientPrefs.data.antialiasing;
 
-		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24, false);
-		logoBl.animation.play('bump');
-		logoBl.updateHitbox();
 		// logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
 
@@ -528,8 +527,15 @@ class TitleState extends MusicBeatState
 	{
 		super.beatHit();
 
-		if(logoBl != null)
-			logoBl.animation.play('bump', true);
+		if(logoBl != null) 
+			{
+				logoBl.scale.x = titleJSON.bumpIntensity;
+				logoBl.scale.y = titleJSON.bumpIntensity;
+				logoBl.angle = 3;
+				FlxTween.tween(logoBl.scale, {x: 1, y: 1}, (0.2), {ease: FlxEase.backOut});
+				FlxTween.tween(logoBl, {angle: 0}, (0.2), {ease: FlxEase.expoOut});
+			}
+			
 
 		if(gfDance != null) {
 			danceLeft = !danceLeft;

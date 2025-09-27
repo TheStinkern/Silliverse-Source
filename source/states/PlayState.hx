@@ -1022,18 +1022,23 @@ class PlayState extends MusicBeatState
 					case 0:
 						FlxG.sound.play(Paths.sound('intro3' + introSoundsSuffix), 0.6);
 						tick = THREE;
+						FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom + 0.05}, (0.5), {ease: FlxEase.expoOut});
 					case 1:
 						countdownReady = createCountdownSprite(introAlts[0], antialias);
 						FlxG.sound.play(Paths.sound('intro2' + introSoundsSuffix), 0.6);
 						tick = TWO;
+						FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom + 0.1}, (0.5), {ease: FlxEase.expoOut});
 					case 2:
 						countdownSet = createCountdownSprite(introAlts[1], antialias);
 						FlxG.sound.play(Paths.sound('intro1' + introSoundsSuffix), 0.6);
 						tick = ONE;
+						FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom + 0.15}, (0.5), {ease: FlxEase.expoOut});
 					case 3:
 						countdownGo = createCountdownSprite(introAlts[2], antialias);
 						FlxG.sound.play(Paths.sound('introGo' + introSoundsSuffix), 0.6);
 						tick = GO;
+						FlxG.camera.zoom -= 0.1;
+						FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom}, (0.5), {ease: FlxEase.expoOut});
 					case 4:
 						tick = START;
 				}
@@ -1071,8 +1076,15 @@ class PlayState extends MusicBeatState
 		spr.screenCenter();
 		spr.antialiasing = antialias;
 		insert(members.indexOf(noteGroup), spr);
-		FlxTween.tween(spr, {/*y: spr.y + 100,*/ alpha: 0}, Conductor.crochet / 1000, {
+		FlxTween.tween(spr, {alpha: 0}, Conductor.crochet / 1000, {
 			ease: FlxEase.cubeInOut,
+			onComplete: function(twn:FlxTween)
+			{
+				remove(spr);
+				spr.destroy();
+			}
+		});
+		FlxTween.tween(spr, {y: spr.y + 100}, Conductor.crochet / 1000, {
 			onComplete: function(twn:FlxTween)
 			{
 				remove(spr);

@@ -115,6 +115,7 @@ class Main extends Sprite
 		Lib.current.stage.scaleMode = StageScaleMode.NO_SCALE;
 		if(fpsVar != null) {
 			fpsVar.visible = ClientPrefs.data.showFPS;
+			//fpsVar.font = "windowsFont.ttf";
 		}
 		#end
 

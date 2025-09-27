@@ -183,7 +183,7 @@ class Alphabet extends FlxSpriteGroup
 		}
 	}
 
-	private static var Y_PER_ROW:Float = 85;
+	private static var Y_PER_ROW:Float = 65;
 
 	private function createLetters(newText:String)
 	{

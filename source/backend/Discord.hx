@@ -85,8 +85,9 @@ class DiscordClient
 		if (hasStartTimestamp) startTimestamp = Date.now().getTime();
 		if (endTimestamp > 0) endTimestamp = startTimestamp + endTimestamp;
 
-		presence.details = details;
-		presence.state = state;
+			presence.details = details;
+			presence.state = state;
+		
 		presence.largeImageKey = 'icon';
 		presence.largeImageText = "Engine Version: " + states.MainMenuState.psychEngineVersion;
 		presence.smallImageKey = smallImageKey;
