@@ -25,6 +25,12 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 			'bool'); //Variable type
 		addOption(option);
 
+		var option:Option = new Option('Better Readability', //Name
+			"If true, changes the alphabet to Dave and Bambi's' alphabet. \nThis requires a restart.", //Description
+			'alphabetToggle', //Save data variable name
+			'bool'); //Variable type
+		addOption(option);
+
 		var option:Option = new Option('Anti-Aliasing',
 			'If unchecked, disables anti-aliasing, increases performance\nat the cost of sharper visuals.',
 			'antialiasing',

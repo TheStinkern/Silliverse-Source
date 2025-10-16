@@ -170,7 +170,7 @@ class PlayState extends MusicBeatState
 
 	public var camZooming:Bool = false;
 	public var camZoomingMult:Float = 1;
-	public var camZoomingDecay:Float = 1;
+	public var camZoomingDecay:Float = 2.5;
 	private var curSong:String = "";
 
 	public var gfSpeed:Int = 1;
@@ -505,12 +505,6 @@ class PlayState extends MusicBeatState
 
 		strumLineNotes = new FlxTypedGroup<StrumNote>();
 		noteGroup.add(strumLineNotes);
-
-		if(ClientPrefs.data.timeBarType == 'Song Name')
-		{
-			timeTxt.size = 24;
-			timeTxt.y += 3;
-		}
 
 		var splash:NoteSplash = new NoteSplash(100, 100);
 		grpNoteSplashes.add(splash);
@@ -1084,7 +1078,7 @@ class PlayState extends MusicBeatState
 				spr.destroy();
 			}
 		});
-		FlxTween.tween(spr, {y: spr.y + 100}, Conductor.crochet / 1000, {
+		FlxTween.tween(spr, {y: spr.y + 100}, Conductor.crochet / 1000, {ease: FlxEase.expoIn,
 			onComplete: function(twn:FlxTween)
 			{
 				remove(spr);
@@ -1689,15 +1683,15 @@ class PlayState extends MusicBeatState
 				openPauseMenu();
 			}
 		}
-
-		if(!endingSong && !inCutscene && allowDebugKeys)
+		
+		if(!endingSong && !inCutscene && allowDebugKeys && (states.MainMenuState.devBuild == false))
 		{
 			if (controls.justPressed('debug_1'))
 				openChartEditor();
 			else if (controls.justPressed('debug_2'))
 				openCharacterEditor();
 		}
-
+		
 		if (healthBar.bounds.max != null && health > healthBar.bounds.max)
 			health = healthBar.bounds.max;
 
@@ -1725,8 +1719,7 @@ class PlayState extends MusicBeatState
 			var secondsTotal:Int = Math.floor(songCalc / 1000);
 			if(secondsTotal < 0) secondsTotal = 0;
 
-			if(ClientPrefs.data.timeBarType != 'Song Name')
-				timeTxt.text = FlxStringUtil.formatTime(secondsTotal, false);
+			timeTxt.text = FlxStringUtil.formatTime(secondsTotal, false);
 		}
 
 		if (camZooming)

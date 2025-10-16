@@ -248,7 +248,7 @@ class Paths
 			if(retVal != null) return retVal;
 		}
 
-		trace('oh no its returning null NOOOO ($file)');
+		trace('File is returning NULL: ($file)');
 		return null;
 	}
 

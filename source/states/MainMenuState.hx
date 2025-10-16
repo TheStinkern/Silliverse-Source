@@ -12,6 +12,7 @@ class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = 'Demo'; // This is also used for Discord RPC
 	public static var curSelected:Int = 0;
+	public static var devBuild:Bool = true;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
@@ -22,6 +23,9 @@ class MainMenuState extends MusicBeatState
 		'credits',
 		'options'
 	];
+
+	public static var bgPaths:Array<String> = ['sam', 'tim', 'stinko', 'koiko']; // shoutout to T5mpler, took this from the DnB 3.0 source archive.
+	public static var menuBg:FlxSprite;
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
@@ -45,25 +49,36 @@ class MainMenuState extends MusicBeatState
 		persistentUpdate = persistentDraw = true;
 
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
-		bg.antialiasing = ClientPrefs.data.antialiasing;
-		bg.scrollFactor.set(0, yScroll);
-		bg.setGraphicSize(Std.int(bg.width * 1.175));
-		bg.updateHitbox();
-		bg.screenCenter();
-		add(bg);
+		menuBg = new FlxSprite(-80).loadGraphic(randomizeBG());
+		menuBg.antialiasing = ClientPrefs.data.antialiasing;
+		menuBg.scrollFactor.set(0, yScroll);
+		menuBg.setGraphicSize(Std.int(menuBg.width * 1.175));
+		menuBg.updateHitbox();
+		menuBg.screenCenter();
+		if (ClientPrefs.data.darkMode) {
+			menuBg.color = 0xff874a24;
+		}
+		else {
+			menuBg.color = 0xffeabb4c;
+		}
+		add(menuBg);
 
 		camFollow = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
 
-		magenta = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat'));
+		magenta = new FlxSprite(-80).loadGraphic(menuBg.graphic);
 		magenta.antialiasing = ClientPrefs.data.antialiasing;
 		magenta.scrollFactor.set(0, yScroll);
 		magenta.setGraphicSize(Std.int(magenta.width * 1.175));
 		magenta.updateHitbox();
 		magenta.screenCenter();
 		magenta.visible = false;
-		magenta.color = 0xFFfd719b;
+		if (!ClientPrefs.data.darkMode) {
+			magenta.color = 0xFFfd719b;
+		}
+		else{
+			magenta.color = 0xff843b88;
+		}
 		add(magenta);
 
 		menuItems = new FlxTypedGroup<FlxSprite>();
@@ -222,6 +237,7 @@ class MainMenuState extends MusicBeatState
 					}
 				}
 			}
+			if (devBuild) {
 			#if desktop
 			if (controls.justPressed('debug_1'))
 			{
@@ -229,6 +245,7 @@ class MainMenuState extends MusicBeatState
 				MusicBeatState.switchState(new MasterEditorMenu());
 			}
 			#end
+			}
 		}
 
 		super.update(elapsed);
@@ -254,5 +271,10 @@ class MainMenuState extends MusicBeatState
 
 		camFollow.setPosition(menuItems.members[curSelected].getGraphicMidpoint().x,
 			menuItems.members[curSelected].getGraphicMidpoint().y - (menuItems.length > 4 ? menuItems.length * 8 : 0));
+	}
+	public static function randomizeBG()
+	{
+		var chance:Int = FlxG.random.int(0, bgPaths.length - 1);
+		return Paths.image('backgrounds/${bgPaths[chance]}');
 	}
 }

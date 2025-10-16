@@ -12,6 +12,7 @@ import backend.InputFormatter;
 
 class BaseOptionsMenu extends MusicBeatSubstate
 {
+
 	private var curOption:Option = null;
 	private var curSelected:Int = 0;
 	private var optionsArray:Array<Option>;
@@ -27,6 +28,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 	public var rpcTitle:String;
 
 	public var bg:FlxSprite;
+
 	public function new()
 	{
 		super();
@@ -38,10 +40,15 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		DiscordClient.changePresence(rpcTitle, null);
 		#end
 		
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
-		bg.color = 0xFFea71fd;
-		bg.screenCenter();
+		bg = new FlxSprite(-80).loadGraphic(states.MainMenuState.randomizeBG());
 		bg.antialiasing = ClientPrefs.data.antialiasing;
+		bg.screenCenter();
+		if (ClientPrefs.data.darkMode) {
+			bg.color = 0xff843b88;
+		}
+		else {
+			bg.color = 0xFFfd719b;
+		}
 		add(bg);
 
 		// avoids lagspikes while scrolling through menus!

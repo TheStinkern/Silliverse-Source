@@ -88,13 +88,7 @@ class PauseSubState extends MusicBeatSubstate
 		bg.alpha = 0;
 		bg.scrollFactor.set();
 		add(bg);
-
-		var levelInfo:FlxText = new FlxText(20, 15, 0, PlayState.SONG.song, 32);
-		levelInfo.scrollFactor.set();
-		levelInfo.setFormat(Paths.font("vcr.ttf"), 32);
-		levelInfo.updateHitbox();
-		add(levelInfo);
-
+		
 		var bg2:FlxBackdrop = new FlxBackdrop(Paths.image('checkeredBG'));
 		bg2.velocity.set(90, 60);
 		bg2.alpha = 0;
@@ -102,6 +96,14 @@ class PauseSubState extends MusicBeatSubstate
 		bg2.scrollFactor.set(0,0);
 		bg2.updateHitbox();
 		add(bg2);
+
+		var levelInfo:FlxText = new FlxText(20, 15, 0, PlayState.SONG.song, 32);
+		levelInfo.scrollFactor.set();
+		levelInfo.setFormat(Paths.font("vcr.ttf"), 32);
+		levelInfo.updateHitbox();
+		add(levelInfo);
+
+
 
 		var levelDifficulty:FlxText = new FlxText(20, 15 + 32, 0, Difficulty.getString().toUpperCase(), 32);
 		levelDifficulty.scrollFactor.set();

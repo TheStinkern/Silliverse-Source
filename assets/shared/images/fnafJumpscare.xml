@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="fnafJumpscare.png">
+<SubTexture name="jumpscare aaa0000" x="0" y="0" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0001" x="0" y="360" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0002" x="800" y="0" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0003" x="800" y="360" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0004" x="0" y="720" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0005" x="800" y="720" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0006" x="800" y="720" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0007" x="0" y="1080" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0008" x="800" y="1080" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0009" x="1600" y="0" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0010" x="1600" y="360" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0011" x="1600" y="720" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0012" x="1600" y="1080" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0013" x="1600" y="1080" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0014" x="0" y="1440" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0015" x="800" y="1440" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0016" x="1600" y="1440" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0017" x="0" y="1800" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0018" x="0" y="1800" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0019" x="800" y="1800" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0020" x="1600" y="1800" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0021" x="2400" y="0" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0022" x="2400" y="360" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+<SubTexture name="jumpscare aaa0023" x="2400" y="720" width="800" height="360" frameX="0" frameY="0" frameWidth="800" frameHeight="360" />
+</TextureAtlas>

@@ -20,7 +20,8 @@ class ShaderFunctions
 			#end
 			return false;
 		});
-		
+				
+
 		funk.addLocalCallback("setSpriteShader", function(obj:String, shader:String) {
 			if(!ClientPrefs.data.shaders) return false;
 

@@ -9,6 +9,8 @@ import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.graphics.frames.FlxFrame;
 import flixel.group.FlxGroup;
 import flixel.input.gamepad.FlxGamepad;
+import flixel.math.FlxRandom;
+//import lime.sy
 import haxe.Json;
 
 import openfl.Assets;
@@ -214,7 +216,9 @@ class TitleState extends MusicBeatState
 		// logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
 
-		if(ClientPrefs.data.shaders) swagShader = new ColorSwap();
+		if(ClientPrefs.data.shaders) 
+			swagShader = new ColorSwap();
+
 		gfDance = new FlxSprite(titleJSON.gfx, titleJSON.gfy);
 		gfDance.antialiasing = ClientPrefs.data.antialiasing;
 
@@ -406,6 +410,22 @@ class TitleState extends MusicBeatState
 
 				FlxG.camera.flash(ClientPrefs.data.flashing ? FlxColor.WHITE : 0x4CFFFFFF, 1);
 				FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
+				var ewie:Float = FlxG.random.int(1, 1000);
+				if (ewie == 1000) 
+				{
+					var jumpscare:FlxSprite = new FlxSprite(0,0);
+						jumpscare.frames = Paths.getSparrowAtlas('fnafJumpscare');
+						jumpscare.animation.addByPrefix('theThing', 'jumpscare aaa', 12);
+						jumpscare.animation.play('theThing');
+						jumpscare.scale.x = 2.5;
+						jumpscare.scale.y = 3;				
+						add(jumpscare);
+						FlxG.sound.play(Paths.sound('jumpscare'), 0.7);
+					var timer = new FlxTimer().start(1, function(tmr:FlxTimer) {
+						Sys.exit(0);
+					});
+				}
+				
 
 				transitioning = true;
 				// FlxG.sound.music.stop();

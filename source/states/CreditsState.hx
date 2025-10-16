@@ -26,7 +26,7 @@ class CreditsState extends MusicBeatState
 		#end
 
 		persistentUpdate = true;
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg = new FlxSprite().loadGraphic(states.MainMenuState.randomizeBG());
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		add(bg);
 		bg.screenCenter();
@@ -40,9 +40,9 @@ class CreditsState extends MusicBeatState
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Silliverse Team'],
-			['Sam',		'doble',		'Main Director',					 'https://x.com/sam_strawberrie',		'2A8F46'],
-			['TimmyBurter',				'tim',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
-			['Stinko',				'stinkern',			'Main coder',						 'https://stinkernn.carrd.co',		'777777'],
+			['Sam',		'doble',		'Basically does everything \nexcept haxe coding.',					 'https://x.com/sam_strawberrie',		'99999'],
+			['TimmyBurter',				'tim',			'Director and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
+			['Stinko',				'stinkern',			'Main coder and Build manager',						 'https://stinkernn.carrd.co',		'777777'],
 			['FloraT1P',				'flora',			'Composer',						 'https://x.com/floracolonthree',		'EF00FF'],
 			['blud3332',				'blud',			'Artist, Animator',						 'https://x.com/blud3332',		'c68278'],
 			['jon',				'jon',			'Artist, Animator',						 'https://x.com/jonchumbbum',		'2e3b70'],
@@ -53,6 +53,10 @@ class CreditsState extends MusicBeatState
 			['an idiot on the internet',				'funnymann',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],*/
 			['Silliverse Contributors'],
 			['Moxie Coder',			'moxie',				"Helped with Psych Engine source code because it's a pain in the ass.",								'https://github.com/moxie-coder',			'33B3BB'],
+			['Menu Background Artists'],
+			['TimmyBurter',				'tim',			'',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
+			['Sam',		'doble',		'',					 'https://x.com/sam_strawberrie',		'99999'],
+			['Koiko',		'',		'',					 '',		'999999'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer and Head of Psych Engine',					 'https://ko-fi.com/shadowmario',		'444444'],
@@ -72,7 +76,7 @@ class CreditsState extends MusicBeatState
 			['iFlicky',				'flicky',			'Composer of Psync and Tea Time\nMade the Dialogue Sounds',	 'https://twitter.com/flicky_i',		'9E29CF'],
 			['KadeDev',				'kade',				'Fixed some issues on Chart Editor and Other PRs',			 'https://twitter.com/kade0912',		'64A250'],
 			['superpowers04',		'superpowers04',	'LUA JIT Fork',												 'https://twitter.com/superpowers04',	'B957ED'],
-			['CheemsAndFriends',	'face',	'Creator of FlxAnimate\n(Icon will be added later, merry christmas!)',	 'https://twitter.com/CheemsnFriendos',	'A1A1A1'],
+			['CheemsAndFriends',	'face',	'Creator of FlxAnimate\n(Icon will be added later, merry christmas!)',	 'https://twitter.com/CheemsnFriendos',	'A1A1A1'], // todays christmas? wowie!
 			[''],
 			["Funkin' Crew"],
 			['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",						 'https://twitter.com/ninja_muffin99',	'CF2D2D'],
@@ -189,7 +193,8 @@ class CreditsState extends MusicBeatState
 			}
 
 			if(controls.ACCEPT && (creditsStuff[curSelected][3] == null || creditsStuff[curSelected][3].length > 4)) {
-				CoolUtil.browserLoad(creditsStuff[curSelected][3]);
+				if (creditsStuff[curSelected][3] != '' && creditsStuff[curSelected][3] != null)
+					CoolUtil.browserLoad(creditsStuff[curSelected][3]);
 			}
 			if (controls.BACK)
 			{
@@ -268,9 +273,16 @@ class CreditsState extends MusicBeatState
 
 		if(moveTween != null) moveTween.cancel();
 		moveTween = FlxTween.tween(descText, {y : descText.y + 75}, 0.25, {ease: FlxEase.sineOut});
-
 		descBox.setGraphicSize(Std.int(descText.width + 20), Std.int(descText.height + 25));
 		descBox.updateHitbox();
+		if (descText.text == '') {
+			descText.visible = false;
+			descBox.visible = false;
+		}
+		else {
+			descText.visible = true;
+			descBox.visible = true;
+		}
 	}
 
 	#if MODS_ALLOWED

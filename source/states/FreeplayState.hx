@@ -9,6 +9,7 @@ import objects.MusicPlayer;
 
 import substates.GameplayChangersSubstate;
 import substates.ResetScoreSubState;
+import shaders.ShakeEffect;
 
 import flixel.addons.display.FlxBackdrop;
 import flixel.math.FlxMath;
@@ -47,6 +48,9 @@ class FreeplayState extends MusicBeatState
 	var bottomString:String;
 	var bottomText:FlxText;
 	var bottomBG:FlxSprite;
+	var shaderAss:ShakeEffect = null;
+
+	var shaderDebugText:FlxText;
 
 	var player:MusicPlayer;
 
@@ -90,7 +94,7 @@ class FreeplayState extends MusicBeatState
 		}
 		Mods.loadTopMod();
 
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg = new FlxSprite().loadGraphic(states.MainMenuState.randomizeBG());
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		add(bg);
 		bg.screenCenter();
@@ -102,7 +106,14 @@ class FreeplayState extends MusicBeatState
 		checker.scrollFactor.set(0,0.4);
 		checker.updateHitbox();
 		add(checker);
+/*
+		if(ClientPrefs.data.shaders) 
+			shaderAss = new ShakeEffect();
 
+		if(shaderAss != null)
+		{
+			bg.shader = shaderAss.shader;
+		}*/
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
 
@@ -130,7 +141,18 @@ class FreeplayState extends MusicBeatState
 
 			// songText.x += 40;
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
-			songText.screenCenter(X);
+			//songText.screenCenter(X);
+			/*
+			switch (songs[i]) {
+			case '3-Deez':
+				songText.onUpdate = function(elapsed:Float) // borrowed from t5
+				{
+					songText.forEachCharacter(function(char:AlphaCharacter) {
+						char.offset.x = FlxG.random.int(-3, 3);
+						char.offset.y = FlxG.random.int(-3, 3);
+					});
+				}
+			}*/
 		}
 		WeekData.setDirectoryFromWeek();
 
@@ -146,9 +168,6 @@ class FreeplayState extends MusicBeatState
 		add(diffText);
 
 		add(scoreText);
-
-
-
 
 		missingTextBG = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		missingTextBG.alpha = 0.6;
@@ -172,14 +191,19 @@ class FreeplayState extends MusicBeatState
 		bottomBG.alpha = 0.6;
 		add(bottomBG);
 
-		var leText:String = "Press SPACE to listen to the Song / Press CTRL to open the Gameplay Changers Menu / Press RESET to Reset your Score and Accuracy.";
+		var leText:String = "Press SPACE to listen to the Song | Press CTRL to open the Gameplay Changers Menu | Press RESET to Reset your Score and Accuracy.";
 		bottomString = leText;
 		var size:Int = 16;
+
 		bottomText = new FlxText(bottomBG.x, bottomBG.y + 4, FlxG.width, leText, size);
 		bottomText.setFormat(Paths.font("vcr.ttf"), size, FlxColor.WHITE, CENTER);
 		bottomText.scrollFactor.set();
 		add(bottomText);
-		
+/*
+		shaderDebugText = new FlxText(0, 0, 0, "0", 32);
+		shaderDebugText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, LEFT);
+		add(shaderDebugText);
+		*/
 		player = new MusicPlayer(this);
 		add(player);
 		
@@ -207,12 +231,12 @@ class FreeplayState extends MusicBeatState
 	var instPlaying:Int = -1;
 	public static var vocals:FlxSound = null;
 	var holdTime:Float = 0;
+
+
 	override function update(elapsed:Float)
 	{
 		if (FlxG.sound.music.volume < 0.7)
-		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
-		}
 		lerpScore = Math.floor(FlxMath.lerp(intendedScore, lerpScore, Math.exp(-elapsed * 24)));
 		lerpRating = FlxMath.lerp(intendedRating, lerpRating, Math.exp(-elapsed * 12));
 
@@ -291,7 +315,6 @@ class FreeplayState extends MusicBeatState
 				_updateSongLastDifficulty();
 			}
 		}
-
 		if (controls.BACK)
 		{
 			if (player.playingMusic)
@@ -392,6 +415,9 @@ class FreeplayState extends MusicBeatState
 				if(colorTween != null) {
 					colorTween.cancel();
 				}
+				FlxTween.tween(FlxG.sound.music, {pitch: 0, volume: 0}, 2, {ease: FlxEase.linear});
+				FlxTween.tween(FlxG.camera, {zoom: 2, angle: 4}, 2, {ease: FlxEase.cubeIn});
+				FlxG.camera.fade(FlxColor.BLACK, 1.5, false);
 			}
 			catch(e:Dynamic)
 			{
@@ -409,9 +435,11 @@ class FreeplayState extends MusicBeatState
 				super.update(elapsed);
 				return;
 			}
-			LoadingState.loadAndSwitchState(new PlayState());
+			new FlxTimer().start(1.5, function(tmr:FlxTimer)
+				{
+					LoadingState.loadAndSwitchState(new PlayState());
+				});
 
-			FlxG.sound.music.volume = 0;
 					
 			destroyFreeplayVocals();
 			#if (MODS_ALLOWED && DISCORD_ALLOWED)
@@ -424,9 +452,31 @@ class FreeplayState extends MusicBeatState
 			openSubState(new ResetScoreSubState(songs[curSelected].songName, curDifficulty, songs[curSelected].songCharacter));
 			FlxG.sound.play(Paths.sound('scrollMenu'));
 		}
+/*
+			if (shaderAss != null)
+			{
+				shaderAss.shakeInterval = 0.01;
+				if (songs[curSelected].songName == '3-Deez' || songs[curSelected].songName == '3-deez') 
+				{
+					if (shaderAss.shakeIntensity < 0.01) 
+					{
+							shaderAss.shakeIntensity += elapsed * 0.001;
+					}
+				}
+				else
+				{
+					if (shaderAss.shakeIntensity > 0) 
+					{
+							shaderAss.shakeIntensity -= elapsed * 0.001;
+					}
+				}
+			}
+		if (shaderDebugText != null && shaderAss != null)
+			shaderDebugText.text = 'Current value: ' + shaderAss.shakeInterval;*/
 
 		updateTexts(elapsed);
 		super.update(elapsed);
+
 	}
 
 	public static function destroyFreeplayVocals() {
@@ -504,6 +554,7 @@ class FreeplayState extends MusicBeatState
 				}
 			});
 		}
+
 
 		// selector.y = (70 * curSelected) + 30;
 
