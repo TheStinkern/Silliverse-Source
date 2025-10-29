@@ -106,7 +106,7 @@ class PauseSubState extends MusicBeatSubstate
 		levelInfo.updateHitbox();
 		add(levelInfo);
 
-		var creditsTxt:String = Assets.getText('assets/assets/data/' + PlayState.SONG.song.toLowerCase() + 'credits.txt', TEXT);
+		var creditsTxt:String = Assets.getText('assets/assets/data/' + PlayState.SONG.song.toLowerCase() + '/credits.txt', TEXT);
 
 		var credits:FlxText = new FlxText(FlxG.width + 5, FlxG.height - 45, 0, '', 16);
 				credits.scrollFactor.set();
