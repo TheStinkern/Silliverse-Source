@@ -8,6 +8,9 @@ import flixel.addons.transition.FlxTransitionableState;
 
 import flixel.util.FlxStringUtil;
 import flixel.addons.display.FlxBackdrop;
+import flixel.system.FlxAssets;
+import flixel.text.FlxText;
+import openfl.utils.Assets;
 
 import states.StoryMenuState;
 import states.FreeplayState;
@@ -103,7 +106,19 @@ class PauseSubState extends MusicBeatSubstate
 		levelInfo.updateHitbox();
 		add(levelInfo);
 
+		var creditsTxt:String = Assets.getText('assets/assets/data/' + PlayState.SONG.song.toLowerCase() + 'credits.txt', TEXT);
 
+		var credits:FlxText = new FlxText(FlxG.width + 5, FlxG.height - 45, 0, '', 16);
+				credits.scrollFactor.set();
+				credits.setFormat(Paths.font("vcr.ttf"), 16);
+				credits.alpha = 0;
+				credits.alignment = FlxTextAlign.RIGHT;
+
+				credits.updateHitbox();
+				add(credits);
+		
+		try 
+			credits.text = creditsTxt;
 
 		var levelDifficulty:FlxText = new FlxText(20, 15 + 32, 0, Difficulty.getString().toUpperCase(), 32);
 		levelDifficulty.scrollFactor.set();
@@ -147,7 +162,7 @@ class PauseSubState extends MusicBeatSubstate
 		FlxTween.tween(levelInfo, {alpha: 1, y: 20}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3});
 		FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.5});
 		FlxTween.tween(blueballedTxt, {alpha: 1, y: blueballedTxt.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.7});
-
+		FlxTween.tween(credits, {alpha: 1, x: credits.x - 10}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3});
 
 		grpMenuShit = new FlxTypedGroup<Alphabet>();
 		add(grpMenuShit);
