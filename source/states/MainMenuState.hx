@@ -24,7 +24,7 @@ class MainMenuState extends MusicBeatState
 		'options'
 	];
 
-	public static var bgPaths:Array<String> = ['sam', 'tim', 'stinko', 'koiko']; // shoutout to T5mpler, took this from the DnB 3.0 source archive.
+	public static var bgPaths:Array<String> = ['sam', 'tim', 'stinko', 'koiko', 'Eggy_in_Space']; // shoutout to T5mpler, took this from the DnB 3.0 source archive.
 	public static var menuBg:FlxSprite;
 
 	var magenta:FlxSprite;

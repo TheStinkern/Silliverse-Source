@@ -56,6 +56,7 @@ class CreditsState extends MusicBeatState
 			['Menu Background Artists'],
 			['TimmyBurter',				'tim',			'',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
 			['Sam',		'doble',		'',					 'https://x.com/sam_strawberrie',		'99999'],
+			['Eggy in Space',		'',		'',					 'https://x.com/Eggy_in_Space',		'99999'],
 			['Koiko',		'',		'',					 '',		'999999'],
 			[''],
 			['Psych Engine Team'],
