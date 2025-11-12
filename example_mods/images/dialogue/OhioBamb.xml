@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="OhioBamb.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="0" y="0" width="365" height="321" pivotX="-0.8" pivotY="-12.85"/>
+	<SubTexture name="talk0000" x="370" y="0" width="323" height="381" pivotX="290" pivotY="192.9" frameX="-11" frameY="0" frameWidth="344" frameHeight="381"/>
+	<SubTexture name="talk0001" x="370" y="0" width="323" height="381" frameX="-11" frameY="0" frameWidth="344" frameHeight="381"/>
+	<SubTexture name="talk0002" x="0" y="386" width="344" height="349" frameX="0" frameY="-32" frameWidth="344" frameHeight="381"/>
+	<SubTexture name="talk0003" x="0" y="386" width="344" height="349" frameX="0" frameY="-32" frameWidth="344" frameHeight="381"/>
+</TextureAtlas>

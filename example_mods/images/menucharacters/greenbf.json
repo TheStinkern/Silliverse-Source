@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "yeah",
+	"idle_anim": "idle",
+	"position": [
+		488,
+		223
+	],
+	"scale": 0.8,
+	"image": "green bf",
+	"flipX": false
+}

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="UnfairDave.png"><SubTexture name="UnfairDave Down0000" x="3498" y="1425" width="580" height="685" frameX="-728" frameY="-486" frameWidth="2296" frameHeight="1264" />
+<SubTexture name="UnfairDave Down0001" x="3498" y="2110" width="580" height="685" frameX="-728" frameY="-486" frameWidth="2296" frameHeight="1264" />
+<SubTexture name="UnfairDave Down0002" x="2272" y="3102" width="579" height="668" frameX="-729" frameY="-503" frameWidth="2296" frameHeight="1264" />
+<SubTexture name="UnfairDave Down0003" x="4158" y="0" width="587" height="653" frameX="-727" frameY="-518" frameWidth="2296" frameHeight="1264" />
+<SubTexture name="UnfairDave Down0004" x="4158" y="1280" width="560" height="619" frameX="-754" frameY="-552" frameWidth="2296" frameHeight="1264" />
+<SubTexture name="UnfairDave Down0005" x="2937" y="731" width="560" height="728" frameX="-754" frameY="-443" frameWidth="2296" frameHeight="1264" />
+<SubTexture name="UnfairDave Down0006" x="2937" y="1459" width="545" height="654" frameX="-754" frameY="-540" frameWidth="2296" frameHeight="1264" />
+<SubTexture name="UnfairDave Down0007" x="4158" y="653" width="550" height="627" frameX="-747" frameY="-567" frameWidth="2296" frameHeight="1264" />
+<SubTexture name="UnfairDave Idle0000" x="3498" y="0" width="660" height="714" frameX="-502" frameY="-178" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Idle0001" x="1515" y="2381" width="659" height="716" frameX="-524" frameY="-176" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Idle0002" x="2174" y="2381" width="658" height="716" frameX="-524" frameY="-176" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Idle0003" x="3498" y="714" width="647" height="711" frameX="-531" frameY="-181" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Idle0004" x="557" y="828" width="874" height="803" frameX="-372" frameY="-89" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Idle0005" x="2281" y="0" width="656" height="757" frameX="-499" frameY="-135" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Idle0006" x="2937" y="0" width="561" height="731" frameX="-605" frameY="-161" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Idle0007" x="2281" y="757" width="553" height="732" frameX="-623" frameY="-161" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Idle0008" x="2281" y="757" width="553" height="732" frameX="-623" frameY="-161" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Left0000" x="2832" y="2381" width="624" height="716" frameX="-343" frameY="-215" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Left0001" x="0" y="2381" width="714" height="721" frameX="-259" frameY="-210" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Left0002" x="714" y="2381" width="801" height="719" frameX="-174" frameY="-209" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Left0003" x="935" y="1645" width="865" height="735" frameX="-102" frameY="-193" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Left0004" x="0" y="1645" width="935" height="736" frameX="-32" frameY="-192" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Left0005" x="1800" y="1645" width="878" height="733" frameX="-89" frameY="-192" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Right0000" x="0" y="3102" width="739" height="685" frameX="-504" frameY="-398" frameWidth="2296" frameHeight="1264" />
+<SubTexture name="UnfairDave Right0001" x="739" y="3102" width="734" height="684" frameX="-228" frameY="-279" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Right0002" x="2851" y="3102" width="761" height="665" frameX="-253" frameY="-298" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Right0003" x="0" y="3787" width="769" height="637" frameX="-305" frameY="-326" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Right0004" x="1473" y="3102" width="799" height="683" frameX="-325" frameY="-280" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Up0000" x="1730" y="0" width="551" height="801" frameX="-589" frameY="-149" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Up0001" x="0" y="828" width="557" height="817" frameX="-595" frameY="-133" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Up0002" x="0" y="0" width="568" height="828" frameX="-594" frameY="-120" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Up0003" x="568" y="0" width="573" height="826" frameX="-593" frameY="-122" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Up0004" x="1141" y="0" width="589" height="822" frameX="-591" frameY="-126" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Up0005" x="568" y="0" width="573" height="826" frameX="-593" frameY="-122" frameWidth="1718" frameHeight="1024" />
+<SubTexture name="UnfairDave Up0006" x="1141" y="0" width="589" height="822" frameX="-591" frameY="-126" frameWidth="1718" frameHeight="1024" />
+</TextureAtlas>

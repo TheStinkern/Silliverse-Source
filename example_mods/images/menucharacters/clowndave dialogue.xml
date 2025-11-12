@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="clowndave dialogue.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="norm idle0000" x="5" y="5" width="433" height="868" pivotX="77.35" pivotY="-17.45"/>
+	<SubTexture name="norm idle0001" x="443" y="5" width="433" height="868"/>
+	<SubTexture name="norm talk0000" x="881" y="5" width="443" height="887" pivotX="83.25" pivotY="1.6"/>
+	<SubTexture name="norm talk0001" x="881" y="5" width="443" height="887"/>
+	<SubTexture name="norm talk0002" x="1329" y="5" width="443" height="887"/>
+	<SubTexture name="norm talk0003" x="1329" y="5" width="443" height="887"/>
+	<SubTexture name="tf idle0000" x="1777" y="5" width="526" height="643" pivotX="81.6" pivotY="-21.05"/>
+	<SubTexture name="tf idle0001" x="2308" y="5" width="526" height="643"/>
+	<SubTexture name="tf talk0000" x="2839" y="5" width="535" height="855" pivotX="81.6" pivotY="-14.15"/>
+	<SubTexture name="tf talk0001" x="2839" y="5" width="535" height="855"/>
+	<SubTexture name="tf talk0002" x="3379" y="5" width="535" height="855"/>
+	<SubTexture name="tf talk0003" x="3379" y="5" width="535" height="855"/>
+	<SubTexture name="tf talk0004" x="5" y="897" width="535" height="855"/>
+	<SubTexture name="tf talk0005" x="5" y="897" width="535" height="855"/>
+	<SubTexture name="tf talk0006" x="545" y="897" width="535" height="855"/>
+	<SubTexture name="tf talk0007" x="545" y="897" width="535" height="855"/>
+</TextureAtlas>

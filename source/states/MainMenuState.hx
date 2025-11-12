@@ -12,7 +12,7 @@ class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = 'Demo'; // This is also used for Discord RPC
 	public static var curSelected:Int = 0;
-	public static var devBuild:Bool = true;
+	public static var devBuild:Bool = false; // enable for, you know, developer shit.
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
@@ -24,7 +24,7 @@ class MainMenuState extends MusicBeatState
 		'options'
 	];
 
-	public static var bgPaths:Array<String> = ['sam', 'tim', 'stinko', 'koiko', 'Eggy_in_Space']; // shoutout to T5mpler, took this from the DnB 3.0 source archive.
+	public static var bgPaths:Array<String> = ['sam', 'tim', 'stinko', 'koiko', 'Eggy_in_Space', 'stinko-2']; // shoutout to T5mpler, took this from the DnB 3.0 source archive.
 	public static var menuBg:FlxSprite;
 
 	var magenta:FlxSprite;

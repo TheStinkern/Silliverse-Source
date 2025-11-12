@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				207,
+				0
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "die",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				208,
+				-296
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "dead",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				207,
+				4
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "confirm",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Margo_Playable",
+	"position": [
+		-62,
+		203
+	],
+	"healthicon": "margo",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		153,
+		51
+	],
+	"camera_position": [
+		340,
+		-80
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

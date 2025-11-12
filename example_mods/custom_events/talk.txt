@@ -1,0 +1,5 @@
+Make a character talk with their own font (You can change the file by adding fonts of your own and changing the name of the font in the .lua file)
+COLOR MUST BE IN HEX VALUE!!!
+Color Example: 69fff0
+Value 1: The text ya fuck
+Value 2: Color (Default is White)

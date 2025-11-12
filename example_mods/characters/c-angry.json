@@ -1,0 +1,136 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-156
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-17,
+				-146
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "honk",
+			"indices": [],
+			"name": "honk"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				104,
+				-21
+			],
+			"anim": "singUP",
+			"fps": 22,
+			"name": "up",
+			"indices": [
+				0,
+				1,
+				2,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				-144
+			],
+			"anim": "singRIGHT",
+			"fps": 22,
+			"name": "right",
+			"indices": [
+				0,
+				1,
+				2,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				107,
+				-125
+			],
+			"anim": "singLEFT",
+			"fps": 22,
+			"name": "left",
+			"indices": [
+				0,
+				1,
+				2,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				47,
+				-152
+			],
+			"anim": "singDOWN",
+			"fps": 22,
+			"name": "down",
+			"indices": [
+				0,
+				1,
+				2,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/c angry",
+	"position": [
+		50,
+		30
+	],
+	"healthicon": "clownmad",
+	"flip_x": false,
+	"healthbar_colors": [
+		211,
+		41,
+		120
+	],
+	"camera_position": [
+		-180,
+		110
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="clowndave_dialogue_MORE.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="annoy idle0000" x="5" y="5" width="433" height="868" pivotX="77.35" pivotY="-17.45"/>
+	<SubTexture name="annoy idle0001" x="443" y="5" width="433" height="868"/>
+	<SubTexture name="annoy talk0000" x="881" y="5" width="468" height="874" pivotX="79.95" pivotY="-11"/>
+	<SubTexture name="annoy talk0001" x="881" y="5" width="468" height="874"/>
+	<SubTexture name="annoy talk0002" x="1354" y="5" width="468" height="874"/>
+	<SubTexture name="annoy talk0003" x="1827" y="5" width="468" height="874"/>
+	<SubTexture name="annoy talk0004" x="2300" y="5" width="468" height="874"/>
+	<SubTexture name="annoy talk0005" x="2773" y="5" width="468" height="874"/>
+	<SubTexture name="annoy talk0006" x="2773" y="5" width="468" height="874"/>
+	<SubTexture name="annoy talk0007" x="3246" y="5" width="468" height="874"/>
+	<SubTexture name="annoy talk0008" x="3246" y="5" width="468" height="874"/>
+	<SubTexture name="norm idle0000" x="3719" y="5" width="433" height="868" pivotX="77.35" pivotY="-17.45"/>
+	<SubTexture name="norm idle0001" x="4157" y="5" width="433" height="868"/>
+	<SubTexture name="norm talk0000" x="4595" y="5" width="443" height="887" pivotX="83.25" pivotY="1.6"/>
+	<SubTexture name="norm talk0001" x="4595" y="5" width="443" height="887"/>
+	<SubTexture name="norm talk0002" x="5043" y="5" width="443" height="887"/>
+	<SubTexture name="norm talk0003" x="5043" y="5" width="443" height="887"/>
+	<SubTexture name="nospin0000" x="5491" y="5" width="433" height="891" pivotX="77.35" pivotY="-17.45"/>
+	<SubTexture name="oh0000" x="5929" y="5" width="433" height="868" pivotX="77.35" pivotY="-17.45"/>
+	<SubTexture name="oh0001" x="6367" y="5" width="433" height="868"/>
+	<SubTexture name="ok0000" x="6805" y="5" width="441" height="868" pivotX="77.35" pivotY="-17.45"/>
+	<SubTexture name="ok0001" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0002" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0003" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0004" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0005" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0006" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0007" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0008" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0009" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0010" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0011" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0012" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0013" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0014" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0015" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0016" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0017" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0018" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0019" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0020" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0021" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0022" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0023" x="5" y="901" width="441" height="868"/>
+	<SubTexture name="ok0024" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0025" x="451" y="901" width="441" height="868"/>
+	<SubTexture name="ok0026" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0027" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0028" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0029" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0030" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0031" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0032" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0033" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0034" x="6805" y="5" width="441" height="868"/>
+	<SubTexture name="ok0035" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0036" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0037" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0038" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0039" x="7251" y="5" width="441" height="868"/>
+	<SubTexture name="ok0040" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0041" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0042" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0043" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="ok0044" x="7697" y="5" width="441" height="868"/>
+	<SubTexture name="screw0000" x="897" y="901" width="433" height="868" pivotX="77.35" pivotY="-17.45"/>
+	<SubTexture name="spin0000" x="1335" y="901" width="1026" height="1026" pivotX="321.9" pivotY="-17.55"/>
+	<SubTexture name="spin0001" x="2366" y="901" width="1026" height="1026"/>
+	<SubTexture name="spin0002" x="3397" y="901" width="1026" height="1026"/>
+	<SubTexture name="spin0003" x="4428" y="901" width="1026" height="1026"/>
+	<SubTexture name="spin0004" x="5459" y="901" width="1026" height="1026"/>
+	<SubTexture name="spin0005" x="6490" y="901" width="1026" height="1026"/>
+	<SubTexture name="spin0006" x="5" y="1932" width="1026" height="1026"/>
+	<SubTexture name="spin0007" x="1036" y="1932" width="1026" height="1026"/>
+	<SubTexture name="spin0008" x="2067" y="1932" width="1026" height="1026"/>
+	<SubTexture name="tf idle0000" x="3098" y="1932" width="526" height="643" pivotX="81.6" pivotY="-21.05"/>
+	<SubTexture name="tf idle0001" x="3629" y="1932" width="526" height="643"/>
+	<SubTexture name="tf talk0000" x="4160" y="1932" width="535" height="855" pivotX="81.6" pivotY="-14.15"/>
+	<SubTexture name="tf talk0001" x="4160" y="1932" width="535" height="855"/>
+	<SubTexture name="tf talk0002" x="4700" y="1932" width="535" height="855"/>
+	<SubTexture name="tf talk0003" x="4700" y="1932" width="535" height="855"/>
+	<SubTexture name="tf talk0004" x="5240" y="1932" width="535" height="855"/>
+	<SubTexture name="tf talk0005" x="5240" y="1932" width="535" height="855"/>
+	<SubTexture name="tf talk0006" x="5780" y="1932" width="535" height="855"/>
+	<SubTexture name="tf talk0007" x="5780" y="1932" width="535" height="855"/>
+</TextureAtlas>

@@ -1,0 +1,102 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		0,
+		-20
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				13,
+				-8
+			],
+			"idle_offsets": [
+				9,
+				-12
+			],
+			"loop_name": "DVtalk",
+			"idle_name": "DVidle"
+		},
+		{
+			"loop_offsets": [
+				10,
+				-10
+			],
+			"anim": "pissed",
+			"idle_offsets": [
+				9,
+				-11
+			],
+			"loop_name": "DVDammitTalk",
+			"idle_name": "DVDammitIdle"
+		},
+		{
+			"idle_offsets": [
+				7,
+				-11
+			],
+			"anim": "confused",
+			"loop_offsets": [
+				7,
+				-10
+			],
+			"idle_name": "DVUm",
+			"loop_name": "DVUm"
+		},
+		{
+			"loop_name": "DVJeus",
+			"idle_offsets": [
+				10,
+				-4
+			],
+			"idle_name": "DVJeus",
+			"anim": "jeus",
+			"loop_offsets": [
+				10,
+				-4
+			]
+		},
+		{
+			"loop_name": "UhOh",
+			"idle_offsets": [
+				7,
+				-5
+			],
+			"idle_name": "UhOh",
+			"anim": "uhoh",
+			"loop_offsets": [
+				7,
+				-4
+			]
+		},
+		{
+			"loop_name": "GFtalk",
+			"idle_offsets": [
+				4,
+				-9
+			],
+			"idle_name": "GFidle",
+			"anim": "gf",
+			"loop_offsets": [
+				5,
+				-2
+			]
+		},
+		{
+			"loop_name": "ConnectionTerminated",
+			"idle_offsets": [
+				10,
+				-5
+			],
+			"idle_name": "ConnectionTerminated",
+			"anim": "ConnectionTerm",
+			"loop_offsets": [
+				10,
+				-5
+			]
+		}
+	],
+	"image": "TV_GF_DIA_2"
+}

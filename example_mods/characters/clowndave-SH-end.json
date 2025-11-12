@@ -1,0 +1,138 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-17,
+				-126
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "wtfLoop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				105,
+				-120
+			],
+			"anim": "reaction",
+			"fps": 12,
+			"name": "wtfReact",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				219,
+				-73
+			],
+			"anim": "slapBuild",
+			"fps": 12,
+			"name": "slapBuild",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15,
+				15
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				197,
+				-77
+			],
+			"anim": "slap",
+			"fps": 16,
+			"name": "THESLAP",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/clowndave_CarmenReaction_2",
+	"position": [
+		210,
+		150
+	],
+	"healthicon": "clown",
+	"flip_x": false,
+	"healthbar_colors": [
+		211,
+		41,
+		120
+	],
+	"camera_position": [
+		-410,
+		-20
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1.4,
+	"_editor_isPlayer": false
+}

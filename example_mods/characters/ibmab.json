@@ -1,0 +1,102 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				75,
+				21
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				79,
+				-35
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				125,
+				38
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				53,
+				21
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				58,
+				29
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				65,
+				32
+			],
+			"anim": "earnest",
+			"fps": 24,
+			"name": "earnest",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				68,
+				32
+			],
+			"anim": "mygod",
+			"fps": 24,
+			"name": "mygod",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Ibmab",
+	"position": [
+		110,
+		430
+	],
+	"healthicon": "ibmab",
+	"flip_x": false,
+	"healthbar_colors": [
+		243,
+		74,
+		255
+	],
+	"camera_position": [
+		-100,
+		-50
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1.4,
+	"_editor_isPlayer": false
+}

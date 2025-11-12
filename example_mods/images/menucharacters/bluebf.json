@@ -1,0 +1,11 @@
+{
+	"idle_anim": "idle",
+	"image": "Bf_Blue",
+	"position": [
+		488,
+		203
+	],
+	"flipX": false,
+	"scale": 0.8,
+	"confirm_anim": "hey"
+}

@@ -304,7 +304,12 @@ class PlayState extends MusicBeatState
 		camOther = new FlxCamera();
 		camHUD.bgColor.alpha = 0;
 		camOther.bgColor.alpha = 0;
-
+		/*
+		camGame.width = 3840;
+		camGame.height = 2160;
+		camGame.x = -1280;
+		camGame.y = -720;
+		*/
 		FlxG.cameras.add(camHUD, false);
 		FlxG.cameras.add(camOther, false);
 		grpNoteSplashes = new FlxTypedGroup<NoteSplash>();
@@ -493,6 +498,7 @@ class PlayState extends MusicBeatState
 		devWatermark.borderSize = 0;
 		devWatermark.x = (FlxG.width / 2) - (devWatermark.width / 2);
 		devWatermark.y = (FlxG.height / 2);
+		if (states.MainMenuState.devBuild)
 		uiGroup.add(devWatermark);
 
 		timeBar = new Bar(0, timeTxt.y + (timeTxt.height / 4), 'timeBar', function() return songPercent, 0, 1);
@@ -1684,7 +1690,7 @@ class PlayState extends MusicBeatState
 			}
 		}
 		
-		if(!endingSong && !inCutscene && allowDebugKeys && (states.MainMenuState.devBuild == false))
+		if(!endingSong && !inCutscene && allowDebugKeys && (states.MainMenuState.devBuild))
 		{
 			if (controls.justPressed('debug_1'))
 				openChartEditor();
@@ -1721,13 +1727,10 @@ class PlayState extends MusicBeatState
 
 			timeTxt.text = FlxStringUtil.formatTime(secondsTotal, false);
 		}
-
-		if (camZooming)
-		{
+		if (camZooming) {
 			FlxG.camera.zoom = FlxMath.lerp(defaultCamZoom, FlxG.camera.zoom, Math.exp(-elapsed * 3.125 * camZoomingDecay * playbackRate));
 			camHUD.zoom = FlxMath.lerp(1, camHUD.zoom, Math.exp(-elapsed * 3.125 * camZoomingDecay * playbackRate));
 		}
-
 		FlxG.watch.addQuick("secShit", curSection);
 		FlxG.watch.addQuick("beatShit", curBeat);
 		FlxG.watch.addQuick("stepShit", curStep);

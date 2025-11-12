@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+			"sound": "bmabDialogue",
+			"speed": 0.05,
+			"portrait": "ibmabdialogue",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Hey, that was actually kinda fun!"
+		},
+		{
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeah but im getting kinda bored tbh"
+		},
+		{
+			"sound": "daveDialogue",
+			"speed": 0.05,
+			"portrait": "tvdiamore",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Finally, can we please leave no-"
+		},
+		{
+			"sound": "bmabDialogue",
+			"speed": 0.05,
+			"portrait": "ibmabdialogue",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Hey, how about one more song?"
+		},
+		{
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeah i could go for one more song"
+		},
+		{
+			"sound": "daveDialogue",
+			"speed": 0.05,
+			"portrait": "tvdiamore",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "I give up."
+		}
+	]
+}

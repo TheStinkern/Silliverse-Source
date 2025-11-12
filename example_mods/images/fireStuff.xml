@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="fireStuff.png">
+<SubTexture name="burn0000" x="0" y="0" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0001" x="1288" y="0" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0002" x="2576" y="0" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0003" x="0" y="728" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0004" x="1288" y="728" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0005" x="2576" y="728" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0006" x="0" y="1456" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0007" x="1288" y="1456" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0008" x="2576" y="1456" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0009" x="0" y="2184" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0010" x="1288" y="2184" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0011" x="2576" y="2184" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0012" x="0" y="2912" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0013" x="1288" y="2912" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0014" x="2576" y="2912" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0015" x="0" y="3640" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0016" x="1288" y="3640" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0017" x="2576" y="3640" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0018" x="0" y="4368" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+<SubTexture name="burn0019" x="1288" y="4368" width="1288" height="728" frameX="0" frameY="0" frameWidth="1280" frameHeight="720" />
+</TextureAtlas>

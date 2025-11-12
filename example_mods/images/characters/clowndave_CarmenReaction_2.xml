@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="clowndave_CarmenReaction_2.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="THESLAP0000" x="12" y="12" width="667" height="477" pivotX="290.35" pivotY="249.25"/>
+	<SubTexture name="THESLAP0001" x="684" y="12" width="667" height="477"/>
+	<SubTexture name="THESLAP0002" x="1356" y="12" width="667" height="477"/>
+	<SubTexture name="THESLAP0003" x="2028" y="12" width="667" height="477"/>
+	<SubTexture name="THESLAP0004" x="2700" y="12" width="667" height="477"/>
+	<SubTexture name="THESLAP0005" x="3372" y="12" width="667" height="477"/>
+	<SubTexture name="THESLAP0006" x="12" y="494" width="667" height="477"/>
+	<SubTexture name="THESLAP0007" x="12" y="494" width="667" height="477"/>
+	<SubTexture name="THESLAP0008" x="12" y="494" width="667" height="477"/>
+	<SubTexture name="THESLAP0009" x="12" y="494" width="667" height="477"/>
+	<SubTexture name="THESLAP0010" x="12" y="494" width="667" height="477"/>
+	<SubTexture name="THESLAP0011" x="12" y="494" width="667" height="477"/>
+	<SubTexture name="THESLAP0012" x="12" y="494" width="667" height="477"/>
+	<SubTexture name="THESLAP0013" x="12" y="494" width="667" height="477"/>
+	<SubTexture name="THESLAP0014" x="12" y="494" width="667" height="477"/>
+	<SubTexture name="THESLAP0015" x="12" y="494" width="667" height="477"/>
+	<SubTexture name="THESLAP0016" x="684" y="494" width="667" height="477"/>
+	<SubTexture name="THESLAP0017" x="1356" y="494" width="667" height="477"/>
+	<SubTexture name="slapBuild0000" x="2028" y="494" width="438" height="492" pivotX="306.45" pivotY="252.65"/>
+	<SubTexture name="slapBuild0001" x="2028" y="494" width="438" height="492"/>
+	<SubTexture name="slapBuild0002" x="2471" y="494" width="438" height="492"/>
+	<SubTexture name="slapBuild0003" x="2914" y="494" width="438" height="492"/>
+	<SubTexture name="slapBuild0004" x="3357" y="494" width="438" height="492"/>
+	<SubTexture name="slapBuild0005" x="12" y="991" width="438" height="492"/>
+	<SubTexture name="slapBuild0006" x="455" y="991" width="438" height="492"/>
+	<SubTexture name="slapBuild0007" x="455" y="991" width="438" height="492"/>
+	<SubTexture name="slapBuild0008" x="898" y="991" width="438" height="492"/>
+	<SubTexture name="slapBuild0009" x="898" y="991" width="438" height="492"/>
+	<SubTexture name="slapBuild0010" x="898" y="991" width="438" height="492"/>
+	<SubTexture name="slapBuild0011" x="898" y="991" width="438" height="492"/>
+	<SubTexture name="slapBuild0012" x="898" y="991" width="438" height="492"/>
+	<SubTexture name="slapBuild0013" x="898" y="991" width="438" height="492"/>
+	<SubTexture name="slapBuild0014" x="898" y="991" width="438" height="492"/>
+	<SubTexture name="slapBuild0015" x="898" y="991" width="438" height="492"/>
+	<SubTexture name="wtfLoop0000" x="1341" y="991" width="270" height="426" pivotX="136.75" pivotY="212.75"/>
+	<SubTexture name="wtfLoop0001" x="1341" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0002" x="1616" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0003" x="1616" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0004" x="1341" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0005" x="1341" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0006" x="1616" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0007" x="1616" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0008" x="1341" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0009" x="1341" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0010" x="1616" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0011" x="1616" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0012" x="1341" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0013" x="1341" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0014" x="1616" y="991" width="270" height="426"/>
+	<SubTexture name="wtfLoop0015" x="1616" y="991" width="270" height="426"/>
+	<SubTexture name="wtfReact0000" x="1891" y="991" width="358" height="443" pivotX="224.45" pivotY="218.7"/>
+	<SubTexture name="wtfReact0001" x="2254" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0002" x="2617" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0003" x="2617" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0004" x="2980" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0005" x="2980" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0006" x="2980" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0007" x="2980" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0008" x="2980" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0009" x="2980" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0010" x="2980" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0011" x="3343" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0012" x="3706" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0013" x="3706" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0014" x="3706" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0015" x="3706" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0016" x="3706" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0017" x="3706" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0018" x="3706" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0019" x="3706" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0020" x="3706" y="991" width="358" height="443"/>
+	<SubTexture name="wtfReact0021" x="12" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0022" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0023" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0024" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0025" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0026" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0027" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0028" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0029" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0030" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0031" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0032" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0033" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0034" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0035" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0036" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0037" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0038" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0039" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0040" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0041" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0042" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0043" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0044" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0045" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0046" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0047" x="375" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0048" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0049" x="738" y="1488" width="358" height="443"/>
+	<SubTexture name="wtfReact0050" x="375" y="1488" width="358" height="443"/>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="OhioBamb.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="um0000" x="0" y="0" width="366" height="334" pivotX="256.25" pivotY="206.3" frameX="0" frameY="-34" frameWidth="377" frameHeight="369"/>
+	<SubTexture name="um0001" x="371" y="0" width="363" height="343" frameX="-3" frameY="-24" frameWidth="377" frameHeight="369"/>
+	<SubTexture name="um0002" x="0" y="348" width="363" height="368" frameX="-8" frameY="0" frameWidth="377" frameHeight="369"/>
+	<SubTexture name="um0003" x="368" y="348" width="360" height="360" frameX="-17" frameY="-9" frameWidth="377" frameHeight="369"/>
+</TextureAtlas>

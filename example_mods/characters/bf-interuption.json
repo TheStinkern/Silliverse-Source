@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-45,
+				-21
+			],
+			"anim": "singRIGHT",
+			"fps": 16,
+			"name": "r",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-45,
+				-20
+			],
+			"indices": [],
+			"fps": 18,
+			"anim": "interuption",
+			"loop": false,
+			"name": "r"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Ibmab_Interrupt_Beefee",
+	"position": [
+		20,
+		100
+	],
+	"healthicon": "eble-bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		153,
+		255
+	],
+	"camera_position": [
+		60,
+		160
+	],
+	"sing_duration": 4.4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

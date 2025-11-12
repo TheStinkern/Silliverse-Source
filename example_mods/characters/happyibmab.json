@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				170,
+				390
+			],
+			"loop": false,
+			"fps": 21,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "danceRight"
+		},
+		{
+			"offsets": [
+				170,
+				390
+			],
+			"loop": false,
+			"fps": 21,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "danceLeft"
+		},
+		{
+			"offsets": [
+				170,
+				390
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				170,
+				390
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right"
+		},
+		{
+			"offsets": [
+				170,
+				390
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				170,
+				390
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/happyibmab",
+	"position": [
+		-310,
+		140
+	],
+	"healthicon": "ibmab",
+	"flip_x": false,
+	"healthbar_colors": [
+		243,
+		74,
+		255
+	],
+	"camera_position": [
+		260,
+		210
+	],
+	"sing_duration": 10,
+	"scale": 0.3,
+	"_editor_isPlayer": false
+}

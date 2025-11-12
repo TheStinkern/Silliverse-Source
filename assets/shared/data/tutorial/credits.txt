@@ -1,4 +1,0 @@
-Artist/Animator: PhantomArcade
-Composer: Kawai Sprite
-Charter: Unknown
-Coder: nijamuffin99

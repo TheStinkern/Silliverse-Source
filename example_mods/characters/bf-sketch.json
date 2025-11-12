@@ -1,0 +1,95 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-36,
+				-151
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				168,
+				-199
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-40,
+				-32
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				138,
+				-120
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				22,
+				-109
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/sketchy_beefee",
+	"position": [
+		20,
+		100
+	],
+	"healthicon": "eble-bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		153,
+		255
+	],
+	"camera_position": [
+		120,
+		170
+	],
+	"sing_duration": 4.4,
+	"scale": 0.8,
+	"_editor_isPlayer": true
+}

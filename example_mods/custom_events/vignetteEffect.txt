@@ -1,0 +1,6 @@
+cool uhhh... vignette effect
+
+value 1: strength (0-1)
+value 2: time 
+
+both values needs to be a number

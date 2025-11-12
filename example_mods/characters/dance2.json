@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				58,
+				-179
+			],
+			"anim": "danceLeft",
+			"fps": 12,
+			"name": "danceleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				58,
+				-179
+			],
+			"anim": "danceRight",
+			"fps": 12,
+			"name": "danceright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				58,
+				-179
+			],
+			"anim": "sad",
+			"fps": 12,
+			"name": "sad",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/dance2",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "guy",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		-230,
+		210
+	],
+	"sing_duration": 4,
+	"scale": 1.1,
+	"_editor_isPlayer": false
+}

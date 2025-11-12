@@ -1,0 +1,47 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-43,
+				-26
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "shit",
+			"loop": false,
+			"name": "SHIT"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/beefeeSHIT",
+	"position": [
+		20,
+		100
+	],
+	"healthicon": "eble-bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		153,
+		255
+	],
+	"camera_position": [
+		-90,
+		110
+	],
+	"sing_duration": 4.4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

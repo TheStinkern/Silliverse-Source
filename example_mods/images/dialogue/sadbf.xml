@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sadbf.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="awman0000" x="0" y="0" width="406" height="403" pivotX="-301.4" pivotY="192.55"/>
+	<SubTexture name="awman0001" x="411" y="0" width="406" height="403"/>
+	<SubTexture name="awman0002" x="0" y="408" width="406" height="403"/>
+</TextureAtlas>

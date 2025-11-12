@@ -1,0 +1,128 @@
+{
+	"position": [
+		70,
+		-100
+	],
+	"dialogue_pos": "left",
+	"scale": 0.899999999999999,
+	"image": "clowndave_dialogue_MORE",
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_offsets": [
+				0,
+				16
+			],
+			"anim": "talk",
+			"idle_name": "norm idle",
+			"loop_name": "norm talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "pissed",
+			"loop_offsets": [
+				1,
+				17
+			],
+			"idle_name": "annoy idle",
+			"loop_name": "annoy talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "shocked",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "oh",
+			"loop_name": "oh"
+		},
+		{
+			"loop_offsets": [
+				0,
+				8
+			],
+			"anim": "confused",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "tf talk",
+			"idle_name": "tf idle"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "ok",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "ok",
+			"idle_name": "ok"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "screwed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "screw",
+			"idle_name": "screw"
+		},
+		{
+			"loop_offsets": [
+				212,
+				0
+			],
+			"anim": "spin",
+			"idle_offsets": [
+				212,
+				0
+			],
+			"loop_name": "spin",
+			"idle_name": "spin"
+		},
+		{
+			"loop_offsets": [
+				212,
+				0
+			],
+			"anim": "spinstop",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "spin",
+			"idle_name": "nospin"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "nospin",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "nospin",
+			"idle_name": "nospin"
+		}
+	]
+}

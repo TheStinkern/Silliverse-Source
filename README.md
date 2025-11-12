@@ -1,2 +1,1 @@
-psych is awesome...
-<!-- sarcasm moment -->
+# Vs. Dave & Bambi: Silliverse Source Code

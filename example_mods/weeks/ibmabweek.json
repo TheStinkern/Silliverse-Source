@@ -1,0 +1,50 @@
+{
+	"storyName": "Why does this guy look like evil bambi",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "bitch",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"ezaM",
+			"ibmab",
+			[
+				234,
+				74,
+				255
+			]
+		],
+		[
+			"tfehT nroC",
+			"ibmab",
+			[
+				234,
+				74,
+				255
+			]
+		],
+		[
+			"dekcolB",
+			"ibmab",
+			[
+				234,
+				74,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "ibmab week"
+}

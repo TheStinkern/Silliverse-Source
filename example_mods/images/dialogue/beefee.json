@@ -1,0 +1,154 @@
+{
+	"position": [
+		110,
+		30
+	],
+	"dialogue_pos": "right",
+	"scale": 1.25,
+	"image": "BEEFEE_DIA",
+	"animations": [
+		{
+			"idle_offsets": [
+				-31,
+				98
+			],
+			"loop_offsets": [
+				-29,
+				105
+			],
+			"anim": "talk",
+			"idle_name": "normIdle",
+			"loop_name": "normTalk"
+		},
+		{
+			"idle_offsets": [
+				244,
+				98
+			],
+			"anim": "excited",
+			"loop_offsets": [
+				250,
+				105
+			],
+			"idle_name": "determIdle",
+			"loop_name": "determTalk"
+		},
+		{
+			"idle_offsets": [
+				-31,
+				98
+			],
+			"anim": "pissed",
+			"loop_offsets": [
+				-30,
+				105
+			],
+			"idle_name": "mbIdle",
+			"loop_name": "mbTalk"
+		},
+		{
+			"idle_offsets": [
+				-31,
+				98
+			],
+			"anim": "shocked",
+			"loop_offsets": [
+				-32,
+				101
+			],
+			"idle_name": "woahIdle",
+			"loop_name": "woahTalk"
+		},
+		{
+			"loop_offsets": [
+				-29,
+				104
+			],
+			"anim": "confused",
+			"idle_offsets": [
+				-31,
+				98
+			],
+			"loop_name": "confuseTalk",
+			"idle_name": "confuseIdle"
+		},
+		{
+			"loop_name": "cluelessTalk",
+			"idle_offsets": [
+				-31,
+				98
+			],
+			"idle_name": "cluelessIdle",
+			"anim": "clueless",
+			"loop_offsets": [
+				-31,
+				103
+			]
+		},
+		{
+			"loop_name": "dontWorryTalk",
+			"idle_offsets": [
+				43,
+				98
+			],
+			"idle_name": "dontWorryIdle",
+			"anim": "dontworry",
+			"loop_offsets": [
+				44,
+				106
+			]
+		},
+		{
+			"loop_name": "grossTalk",
+			"idle_offsets": [
+				-31,
+				95
+			],
+			"idle_name": "grossIdle",
+			"anim": "gross",
+			"loop_offsets": [
+				-31,
+				95
+			]
+		},
+		{
+			"loop_name": "owMyHead",
+			"idle_offsets": [
+				11,
+				-31
+			],
+			"idle_name": "owMyHead",
+			"anim": "ow",
+			"loop_offsets": [
+				11,
+				-31
+			]
+		},
+		{
+			"loop_name": "ref 2",
+			"idle_offsets": [
+				80,
+				50
+			],
+			"idle_name": "ref 2",
+			"anim": "man",
+			"loop_offsets": [
+				80,
+				50
+			]
+		},
+		{
+			"loop_name": "WTFIdle",
+			"idle_offsets": [
+				-31,
+				98
+			],
+			"idle_name": "WTFTalk",
+			"anim": "WTF",
+			"loop_offsets": [
+				164,
+				98
+			]
+		}
+	]
+}

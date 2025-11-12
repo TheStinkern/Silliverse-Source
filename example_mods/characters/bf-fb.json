@@ -1,0 +1,150 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-45,
+				-20
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				9,
+				-101
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				4
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-9,
+				-29
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "pissed himself",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				-42
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				73,
+				-43
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "LMISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				-22
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "RMISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				8
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "UMISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				28,
+				-107
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "DMISS",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/eefeeb",
+	"position": [
+		20,
+		100
+	],
+	"healthicon": "eble-bf",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		153,
+		255
+	],
+	"camera_position": [
+		60,
+		160
+	],
+	"sing_duration": 4.4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

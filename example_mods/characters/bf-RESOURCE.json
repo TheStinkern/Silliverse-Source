@@ -1,0 +1,142 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				95,
+				4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-50,
+				4
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				10,
+				-61
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-18,
+				126
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				98,
+				24
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "lFUCK"
+		},
+		{
+			"offsets": [
+				-40,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "rFUCK"
+		},
+		{
+			"offsets": [
+				12,
+				-60
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "dFUCK"
+		},
+		{
+			"offsets": [
+				-4,
+				127
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "uFUCK"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/RESOURCE-PLAYABLE",
+	"position": [
+		20,
+		280
+	],
+	"healthicon": "resource",
+	"flip_x": false,
+	"healthbar_colors": [
+		209,
+		206,
+		222
+	],
+	"camera_position": [
+		100,
+		-20
+	],
+	"sing_duration": 4.4,
+	"scale": 1
+}

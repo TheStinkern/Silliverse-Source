@@ -1,0 +1,36 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				237,
+				-259
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/clowndavemech",
+	"position": [
+		340,
+		160
+	],
+	"healthicon": "clown",
+	"flip_x": false,
+	"healthbar_colors": [
+		211,
+		41,
+		120
+	],
+	"camera_position": [
+		-450,
+		160
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1.4,
+	"_editor_isPlayer": false
+}

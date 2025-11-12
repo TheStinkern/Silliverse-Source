@@ -1,0 +1,76 @@
+{
+	"dialogue": [
+		{
+			"expression": "nospin",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "clowndavedialoguemore",
+			"speed": 0.27,
+			"sound": "clownDialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "That song was so easy dude try harder next time",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "Alright man... You're starting to TICK me off...",
+			"boxState": "normal",
+			"portrait": "clowndavedialoguemore",
+			"speed": 0.05,
+			"sound": "clownDIalogue"
+		},
+		{
+			"expression": "jeus",
+			"text": "Boyfriend... I really don't think you should anger this person... You don't even know what could happen!",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.05,
+			"sound": "daveDialogue"
+		},
+		{
+			"expression": "clueless",
+			"text": "PFFFF! Please... What is this chucklefuck gonna do? Throw a water balloon at me?",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "Alright man, NOW you've pissed me off!",
+			"boxState": "angry",
+			"portrait": "clowndavedialoguemore",
+			"speed": 0.05,
+			"sound": "ClownDialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "I'm not gonna play around this time!",
+			"boxState": "angry",
+			"sound": "clownDialogue",
+			"speed": 0.05,
+			"portrait": "clowndavedialoguemore"
+		},
+		{
+			"expression": "confused",
+			"text": "I actually hope you di-",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.05,
+			"sound": "daveDialogue"
+		},
+		{
+			"expression": "dontworry",
+			"text": "Bring it on, clown boy!",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		}
+	]
+}

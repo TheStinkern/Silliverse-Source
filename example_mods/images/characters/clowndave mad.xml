@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="clowndave mad.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down instance 10000" x="5" y="5" width="356" height="429" pivotX="133.1" pivotY="307.1"/>
+	<SubTexture name="down instance 10001" x="5" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10002" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10003" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10004" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10005" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10006" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10007" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10008" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10009" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10010" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10011" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10012" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10013" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10014" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10015" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10016" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="down instance 10017" x="366" y="5" width="356" height="429"/>
+	<SubTexture name="honk instance 10000" x="727" y="5" width="433" height="434" pivotX="131.65" pivotY="219"/>
+	<SubTexture name="honk instance 10001" x="727" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10002" x="1165" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10003" x="1603" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10004" x="1603" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10005" x="2041" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10006" x="2041" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10007" x="2479" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10008" x="2479" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10009" x="2479" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10010" x="2479" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10011" x="2479" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10012" x="2917" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10013" x="2917" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10014" x="3355" y="5" width="433" height="434"/>
+	<SubTexture name="honk instance 10015" x="5" y="444" width="433" height="434"/>
+	<SubTexture name="honk instance 10016" x="443" y="444" width="433" height="434"/>
+	<SubTexture name="honk instance 10017" x="881" y="444" width="433" height="434"/>
+	<SubTexture name="honk instance 10018" x="881" y="444" width="433" height="434"/>
+	<SubTexture name="honk instance 10019" x="881" y="444" width="433" height="434"/>
+	<SubTexture name="honk instance 10020" x="881" y="444" width="433" height="434"/>
+	<SubTexture name="honk instance 10021" x="881" y="444" width="433" height="434"/>
+	<SubTexture name="honk instance 10022" x="881" y="444" width="433" height="434"/>
+	<SubTexture name="honk instance 10023" x="881" y="444" width="433" height="434"/>
+	<SubTexture name="honk instance 10024" x="881" y="444" width="433" height="434"/>
+	<SubTexture name="honk instance 10025" x="881" y="444" width="433" height="434"/>
+	<SubTexture name="honk instance 10026" x="881" y="444" width="433" height="434"/>
+	<SubTexture name="honk instance 10027" x="881" y="444" width="433" height="434"/>
+	<SubTexture name="idle instance 10000" x="1319" y="444" width="266" height="430" pivotX="131.65" pivotY="212.95"/>
+	<SubTexture name="idle instance 10001" x="1590" y="444" width="266" height="430"/>
+	<SubTexture name="idle instance 10002" x="1861" y="444" width="266" height="430"/>
+	<SubTexture name="idle instance 10003" x="2132" y="444" width="266" height="430"/>
+	<SubTexture name="left instance 10000" x="2403" y="444" width="319" height="429" pivotX="123.2" pivotY="308.15"/>
+	<SubTexture name="left instance 10001" x="2403" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10002" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10003" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10004" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10005" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10006" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10007" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10008" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10009" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10010" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10011" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10012" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10013" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10014" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10015" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10016" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="left instance 10017" x="2727" y="444" width="319" height="429"/>
+	<SubTexture name="right instance 10000" x="3051" y="444" width="298" height="455" pivotX="89.35" pivotY="334.6"/>
+	<SubTexture name="right instance 10001" x="3051" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10002" x="3354" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10003" x="3354" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10004" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10005" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10006" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10007" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10008" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10009" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10010" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10011" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10012" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10013" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10014" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10015" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10016" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="right instance 10017" x="3657" y="444" width="298" height="455"/>
+	<SubTexture name="up instance 10000" x="5" y="904" width="414" height="443" pivotX="212.55" pivotY="325.85"/>
+	<SubTexture name="up instance 10001" x="424" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10002" x="843" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10003" x="843" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10004" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10005" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10006" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10007" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10008" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10009" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10010" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10011" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10012" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10013" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10014" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10015" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10016" x="1262" y="904" width="414" height="443"/>
+	<SubTexture name="up instance 10017" x="1262" y="904" width="414" height="443"/>
+</TextureAtlas>

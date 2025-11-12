@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="beefeeSHIT.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SHIT0000" x="5" y="5" width="382" height="664" pivotX="-228.2" pivotY="314.15"/>
+	<SubTexture name="SHIT0001" x="5" y="5" width="382" height="664"/>
+	<SubTexture name="SHIT0002" x="392" y="5" width="382" height="664"/>
+	<SubTexture name="SHIT0003" x="392" y="5" width="382" height="664"/>
+	<SubTexture name="SHIT0004" x="392" y="5" width="382" height="664"/>
+	<SubTexture name="SHIT0005" x="392" y="5" width="382" height="664"/>
+	<SubTexture name="SHIT0006" x="392" y="5" width="382" height="664"/>
+	<SubTexture name="SHIT0007" x="392" y="5" width="382" height="664"/>
+	<SubTexture name="SHIT0008" x="392" y="5" width="382" height="664"/>
+	<SubTexture name="SHIT0009" x="392" y="5" width="382" height="664"/>
+	<SubTexture name="SHIT0010" x="392" y="5" width="382" height="664"/>
+	<SubTexture name="idle0000" x="779" y="5" width="424" height="690" pivotX="-185.85" pivotY="340.35"/>
+	<SubTexture name="idle0001" x="779" y="5" width="424" height="690"/>
+	<SubTexture name="idle0002" x="1208" y="5" width="424" height="690"/>
+	<SubTexture name="idle0003" x="1208" y="5" width="424" height="690"/>
+	<SubTexture name="idle0004" x="5" y="700" width="424" height="690"/>
+	<SubTexture name="idle0005" x="5" y="700" width="424" height="690"/>
+	<SubTexture name="idle0006" x="434" y="700" width="424" height="690"/>
+	<SubTexture name="idle0007" x="434" y="700" width="424" height="690"/>
+	<SubTexture name="idle0008" x="863" y="700" width="424" height="690"/>
+	<SubTexture name="idle0009" x="863" y="700" width="424" height="690"/>
+	<SubTexture name="idle0010" x="863" y="700" width="424" height="690"/>
+	<SubTexture name="idle0011" x="863" y="700" width="424" height="690"/>
+	<SubTexture name="idle0012" x="863" y="700" width="424" height="690"/>
+	<SubTexture name="idle0013" x="863" y="700" width="424" height="690"/>
+</TextureAtlas>

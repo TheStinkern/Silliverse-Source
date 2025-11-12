@@ -1,0 +1,102 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		80,
+		50
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				-5,
+				-14
+			],
+			"loop_name": "talkNorm",
+			"idle_name": "idleNorm"
+		},
+		{
+			"loop_name": "talkHuh",
+			"idle_offsets": [
+				-5,
+				-18
+			],
+			"idle_name": "idleHuh",
+			"anim": "huh",
+			"loop_offsets": [
+				-5,
+				-18
+			]
+		},
+		{
+			"loop_name": "talkHappy",
+			"idle_offsets": [
+				21,
+				-11
+			],
+			"idle_name": "idleHappy",
+			"anim": "happy",
+			"loop_offsets": [
+				29,
+				-6
+			]
+		},
+		{
+			"loop_name": "talkOh",
+			"idle_offsets": [
+				6,
+				-18
+			],
+			"idle_name": "idleOh",
+			"anim": "oh",
+			"loop_offsets": [
+				32,
+				-18
+			]
+		},
+		{
+			"loop_name": "imGonna",
+			"idle_offsets": [
+				39,
+				-18
+			],
+			"idle_name": "imGonna",
+			"anim": "imGonna",
+			"loop_offsets": [
+				39,
+				-18
+			]
+		},
+		{
+			"loop_name": "m",
+			"idle_offsets": [
+				-5,
+				-18
+			],
+			"idle_name": "m",
+			"anim": "m",
+			"loop_offsets": [
+				-5,
+				-18
+			]
+		},
+		{
+			"loop_name": "WHAT",
+			"idle_offsets": [
+				-15,
+				-18
+			],
+			"idle_name": "WHAT",
+			"anim": "what",
+			"loop_offsets": [
+				-15,
+				-17
+			]
+		}
+	],
+	"image": "ibmabDialogue"
+}

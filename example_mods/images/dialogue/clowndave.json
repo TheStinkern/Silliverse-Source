@@ -1,0 +1,38 @@
+{
+	"position": [
+		100,
+		-120
+	],
+	"dialogue_pos": "left",
+	"no_antialiasing": false,
+	"scale": 0.9,
+	"image": "clowndave_dialogue",
+	"animations": [
+		{
+			"idle_offsets": [
+				-1,
+				-9
+			],
+			"loop_offsets": [
+				2,
+				2
+			],
+			"anim": "talk",
+			"idle_name": "norm idle",
+			"loop_name": "norm talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "pissed",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "tf idle",
+			"loop_name": "tf talk"
+		}
+	]
+}

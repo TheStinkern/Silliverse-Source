@@ -38,6 +38,7 @@ class PauseSubState extends MusicBeatSubstate
 	var skipTimeText:FlxText;
 	var skipTimeTracker:Alphabet;
 	var curTime:Float = Math.max(0, Conductor.songPosition);
+	var creditsTxt:String = 'null';
 
 	var missingTextBG:FlxSprite;
 	var missingText:FlxText;
@@ -105,8 +106,8 @@ class PauseSubState extends MusicBeatSubstate
 		levelInfo.setFormat(Paths.font("vcr.ttf"), 32);
 		levelInfo.updateHitbox();
 		add(levelInfo);
-
-		var creditsTxt:String = Assets.getText('assets/assets/data/' + PlayState.SONG.song.toLowerCase() + '/credits.txt', TEXT);
+		try 
+			//var creditsTxt:String = Assets.getText('songCredits/' + PlayState.SONG.song.toLowerCase() + '.txt');
 
 		var credits:FlxText = new FlxText(FlxG.width + 5, FlxG.height - 45, 0, '', 16);
 				credits.scrollFactor.set();
@@ -115,10 +116,9 @@ class PauseSubState extends MusicBeatSubstate
 				credits.alignment = FlxTextAlign.RIGHT;
 
 				credits.updateHitbox();
-				add(credits);
-		
-		try 
-			credits.text = creditsTxt;
+				//add(credits);
+
+			//credits.text = creditsTxt;
 
 		var levelDifficulty:FlxText = new FlxText(20, 15 + 32, 0, Difficulty.getString().toUpperCase(), 32);
 		levelDifficulty.scrollFactor.set();

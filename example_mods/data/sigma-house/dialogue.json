@@ -1,0 +1,220 @@
+{
+	"dialogue": [
+		{
+			"expression": "ow",
+			"text": "My head kinda hurts from that fall...",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "confused",
+			"text": "Dave... Where the HELL am I?",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "I don't know what this place is...",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.05,
+			"sound": "daveDialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "Oh no...",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.1,
+			"sound": "daveDialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "I don't like the sound of your voice",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "We have a bit of an issue... The portal isn't able to open back up.",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.05,
+			"sound": "daveDialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "So you're saying I'm going to be stuck here?",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "jeus",
+			"text": "To be honest, I don't really know myself...",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.05,
+			"sound": "daveDialogue"
+		},
+		{
+			"expression": "gross",
+			"text": "GOD DAMMIT",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.04,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "There's a REASON I said not to have any drinks while using the portal...",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.05,
+			"sound": "daveDialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "I was thirsty ok",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "Sigh...",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.1,
+			"sound": "daveDialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "HEY! Who's there?...",
+			"boxState": "angry",
+			"portrait": "clowndavedialoguemore",
+			"speed": 0.05,
+			"sound": "clownDialogue"
+		},
+		{
+			"expression": "excited",
+			"text": "Hey dave that guy looks just like you",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "Boyfriend, I really don't think you should mess with beings from another universe...",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.05,
+			"sound": "daveDialogue"
+		},
+		{
+			"expression": "confused",
+			"text": "What's going on here? Where did you two come from?",
+			"boxState": "normal",
+			"portrait": "clowndavedialoguemore",
+			"speed": 0.05,
+			"sound": "clownDialogue"
+		},
+		{
+			"expression": "confused",
+			"text": "I fell from a portal. I kind of forgot on what it really looked like, but it was like, a pixely type of thing...",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "How could a portal have RANDOMLY opened right in my own backyard?",
+			"boxState": "normal",
+			"portrait": "clowndavedialoguemore",
+			"speed": 0.035,
+			"sound": "clownDialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "Man I don='t fucking know...",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Ask him on the tv."
+		},
+		{
+			"expression": "confused",
+			"text": "",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.05,
+			"sound": "daveDialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "Anyways, rap battle?",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "Can you make it quick? I need to do\\nsomething important after this.",
+			"boxState": "normal",
+			"portrait": "clowndavedialoguemore",
+			"speed": 0.05,
+			"sound": "clownDialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "As in feeding my son.",
+			"boxState": "normal",
+			"portrait": "clowndavedialoguemore",
+			"speed": 0.05,
+			"sound": "clownDialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "Alright, fine...",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "gf",
+			"text": "Good luck babe!!!",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.05,
+			"sound": "gfDialogue"
+		},
+		{
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee",
+			"boxState": "normal",
+			"expression": "man",
+			"text": ""
+		}
+	]
+}

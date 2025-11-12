@@ -1,0 +1,11 @@
+{
+	"idle_anim": "um",
+	"image": "OhioBamb",
+	"position": [
+		60,
+		30
+	],
+	"flipX": false,
+	"scale": 1.15,
+	"confirm_anim": "um"
+}

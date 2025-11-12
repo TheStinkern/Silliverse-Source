@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mogus3d.png">
+<SubTexture name="mogus3d idle10000" x="0" y="0" width="166" height="86" frameX="-21" frameY="-71" frameWidth="200" frameHeight="180" />
+<SubTexture name="mogus3d idle20000" x="0" y="86" width="172" height="88" frameX="-17" frameY="-71" frameWidth="200" frameHeight="180" />
+<SubTexture name="mogus3d idle30000" x="0" y="174" width="170" height="91" frameX="-17" frameY="-64" frameWidth="200" frameHeight="180" />
+</TextureAtlas>

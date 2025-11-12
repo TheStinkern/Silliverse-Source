@@ -1,0 +1,9 @@
+{
+	"name": "DnB SilliVerse",
+	"description": "fuck",
+	"restart": true,
+	"runsGlobally": false,
+	"color": [254, 155, 255],
+	"discordRPC": "1321905155293184132",
+	"iconFramerate": 30
+}

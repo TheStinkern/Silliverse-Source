@@ -1,0 +1,68 @@
+{
+	"dialogue": [
+		{
+			"sound": "bmabDialogue",
+			"speed": 0.05,
+			"portrait": "ibmabdialogue",
+			"boxState": "normal",
+			"expression": "happy",
+			"text": "Ok! I was just messing around, I know how to speak more than Australian!"
+		},
+		{
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee",
+			"boxState": "normal",
+			"expression": "ouch",
+			"text": "that's not even australian but ok i guess"
+		},
+		{
+			"sound": "bmabDialogue",
+			"speed": 0.05,
+			"portrait": "ibmabdialogue",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Ok, but can you get out of my farm? I don't even know who you guys are, and I get a lot of people stealing my corn."
+		},
+		{
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hmmmmm let me think about it ummmmmmmmmmmmmmm UHHHHHhHHHHHHHHHHHHHhHHHHHHHHHHHHHhHHHHHHHHHHHHp UHHHHHhHHHHHHHHHHHHHhHHHHHHHHHHHHHhHHHHHHHHHHHH Hold on one sec uhhh"
+		},
+		{
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee",
+			"boxState": "normal",
+			"expression": "clueless",
+			"text": "No!"
+		},
+		{
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee",
+			"boxState": "normal",
+			"expression": "determ",
+			"text": "Instead, I'm going to rap battle you again!"
+		},
+		{
+			"sound": "bmabDialogue",
+			"speed": 0.05,
+			"portrait": "ibmabdialogue",
+			"boxState": "normal",
+			"expression": "oh",
+			"text": "Ok, Fine..."
+		},
+		{
+			"sound": "daveDialogue",
+			"speed": 0.05,
+			"portrait": "tvdiamore",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "I can't even do anything about this anymore."
+		}
+	]
+}

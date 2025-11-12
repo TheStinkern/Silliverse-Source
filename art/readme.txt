@@ -1,20 +1,11 @@
-THANKS FOR DOWNLOADING VS DAVE AND BAMBI: SILLIVERSE!!!
-If you got this anywhere else, please burn your computer.
+we have been working HARD on this mod's demo.
 
-This mod is made with love by EVERY SINGLE TEAM MEMBER... 
-Sorry if the release took too long
+mod will include 2 sets of songs:
+- ibmaB's week
+- clown dave's week
 
-(PLEASE PLAY THE MOD IN STORY MODE FIRST, IF YOU GO TO FREEPLAY FIRST ILL KILL YOU because there's a secret there you're meant to play after)
+each week includes 3 songs.
 
-Please enjoy the mod!
+other than that, i hope you enjoy the mod.
 
--Sam, the director!
-
-
-I want a pop tart! 
-
--Quinn, the fat retard
-
-no.
-
-- Stinko
+- Silliteam

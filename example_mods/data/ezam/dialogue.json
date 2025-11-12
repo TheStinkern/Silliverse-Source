@@ -1,0 +1,133 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Dave that guy kinda looked like you but red",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "pissed",
+			"text": "How are you BARELY noticing that?",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.05,
+			"sound": "daveDialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "?mraf ym no gniod uoy era tahW ?uoy era ohW",
+			"boxState": "normal",
+			"portrait": "ibmabdialogue",
+			"speed": 0.05,
+			"sound": "bmabDialogue"
+		},
+		{
+			"expression": "ouch",
+			"text": "you gotta be fucking kidding me",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "jeus",
+			"text": "...Oh.",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.1,
+			"sound": "daveDialogue"
+		},
+		{
+			"expression": "huh",
+			"text": "!sporc ym morf yawa yatS",
+			"boxState": "normal",
+			"portrait": "ibmabdialogue",
+			"speed": 0.05,
+			"sound": "bmabDialogue"
+		},
+		{
+			"expression": "woah",
+			"text": "what in the actual hell are you saying dude",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "confused",
+			"text": "WAITWAIT let me try saying something.",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "clueless",
+			"text": "Suenas como una perra hermano",  
+			"__comment": "in english, it says: You sound like a bitch, bro.",
+			"boxState": "normal",
+			"portrait": "beefee",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "confused",
+			"text": "Boyfriend that's spanish",
+			"boxState": "normal",
+			"sound": "daveDialogue",
+			"speed": 0.05,
+			"portrait": "tvdiamore"
+		},
+		{
+			"expression": "oh",
+			"text": "tahW",
+			"boxState": "normal",
+			"portrait": "ibmabdialogue",
+			"speed": 0.1,
+			"sound": "bmabDialogue"
+		},
+		{
+			"expression": "ouch",
+			"text": "DUDE I HAVE NO IDEA WHAT YOU ARE SAYING PLEASE SPEAK NORMALLY",
+			"boxState": "angry",
+			"portrait": "beefee",
+			"speed": 0.035,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "???yako edud yllamron kaeps t'nac I",
+			"boxState": "normal",
+			"sound": "bmabDialogue",
+			"speed": 0.05,
+			"portrait": "ibmabdialogue"
+		},
+		{
+			"expression": "ouch",
+			"text": "Okay, fine...",
+			"boxState": "normal",
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee"
+		},
+		{
+			"expression": "talk",
+			"text": "You have to rap battle me thou",
+			"boxState": "normal",
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee"
+		},
+		{
+			"expression": "huh",
+			"text": "...eruS",
+			"boxState": "normal",
+			"sound": "bmabDialogue",
+			"speed": 0.05,
+			"portrait": "ibmabdialogue"
+		}
+	]
+}

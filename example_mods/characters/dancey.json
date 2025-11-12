@@ -1,0 +1,47 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-29,
+				-293
+			],
+			"indices": [],
+			"fps": 33,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "danceleft"
+		},
+		{
+			"offsets": [
+				-25,
+				-293
+			],
+			"indices": [],
+			"fps": 33,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "danceright"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/dancye",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		-280,
+		160
+	],
+	"sing_duration": 4,
+	"scale": 1.8,
+	"_editor_isPlayer": false
+}

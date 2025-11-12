@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TV_GF_DIA_2.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ConnectionTerminated0000" x="5" y="5" width="413" height="451" pivotX="0" pivotY="0"/>
+	<SubTexture name="ConnectionTerminated0001" x="423" y="5" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0002" x="841" y="5" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0003" x="1259" y="5" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0004" x="1677" y="5" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0005" x="2095" y="5" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0006" x="2513" y="5" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0007" x="2931" y="5" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0008" x="3349" y="5" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0009" x="5" y="461" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0010" x="423" y="461" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0011" x="1259" y="5" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0012" x="1677" y="5" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0013" x="841" y="461" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0014" x="1259" y="461" width="413" height="451"/>
+	<SubTexture name="ConnectionTerminated0015" x="1677" y="461" width="413" height="451"/>
+	<SubTexture name="DVDammitIdle0000" x="2095" y="461" width="413" height="451" pivotX="0" pivotY="0"/>
+	<SubTexture name="DVDammitIdle0001" x="2095" y="461" width="413" height="451"/>
+	<SubTexture name="DVDammitIdle0002" x="2513" y="461" width="413" height="451"/>
+	<SubTexture name="DVDammitIdle0003" x="2513" y="461" width="413" height="451"/>
+	<SubTexture name="DVDammitIdle0004" x="2095" y="461" width="413" height="451"/>
+	<SubTexture name="DVDammitIdle0005" x="2095" y="461" width="413" height="451"/>
+	<SubTexture name="DVDammitIdle0006" x="2513" y="461" width="413" height="451"/>
+	<SubTexture name="DVDammitIdle0007" x="2513" y="461" width="413" height="451"/>
+	<SubTexture name="DVDammitTalk0000" x="2931" y="461" width="416" height="457" pivotX="1.6" pivotY="6.4"/>
+	<SubTexture name="DVDammitTalk0001" x="2931" y="461" width="416" height="457"/>
+	<SubTexture name="DVDammitTalk0002" x="3352" y="461" width="416" height="457"/>
+	<SubTexture name="DVDammitTalk0003" x="3352" y="461" width="416" height="457"/>
+	<SubTexture name="DVDammitTalk0004" x="5" y="923" width="416" height="457"/>
+	<SubTexture name="DVDammitTalk0005" x="5" y="923" width="416" height="457"/>
+	<SubTexture name="DVJeus0000" x="426" y="923" width="413" height="451" pivotX="0" pivotY="0"/>
+	<SubTexture name="DVJeus0001" x="844" y="923" width="413" height="451"/>
+	<SubTexture name="DVJeus0002" x="1262" y="923" width="413" height="451"/>
+	<SubTexture name="DVJeus0003" x="1680" y="923" width="413" height="451"/>
+	<SubTexture name="DVJeus0004" x="426" y="923" width="413" height="451"/>
+	<SubTexture name="DVJeus0005" x="844" y="923" width="413" height="451"/>
+	<SubTexture name="DVJeus0006" x="1262" y="923" width="413" height="451"/>
+	<SubTexture name="DVJeus0007" x="1680" y="923" width="413" height="451"/>
+	<SubTexture name="DVUm0000" x="2098" y="923" width="413" height="451" pivotX="0" pivotY="0"/>
+	<SubTexture name="DVUm0001" x="2098" y="923" width="413" height="451"/>
+	<SubTexture name="DVUm0002" x="2098" y="923" width="413" height="451"/>
+	<SubTexture name="DVUm0003" x="2098" y="923" width="413" height="451"/>
+	<SubTexture name="DVUm0004" x="2098" y="923" width="413" height="451"/>
+	<SubTexture name="DVUm0005" x="2098" y="923" width="413" height="451"/>
+	<SubTexture name="DVUm0006" x="2098" y="923" width="413" height="451"/>
+	<SubTexture name="DVUm0007" x="2098" y="923" width="413" height="451"/>
+	<SubTexture name="DVidle0000" x="2516" y="923" width="413" height="451" pivotX="0" pivotY="0"/>
+	<SubTexture name="DVidle0001" x="2516" y="923" width="413" height="451"/>
+	<SubTexture name="DVidle0002" x="2934" y="923" width="413" height="451"/>
+	<SubTexture name="DVidle0003" x="2934" y="923" width="413" height="451"/>
+	<SubTexture name="DVidle0004" x="2516" y="923" width="413" height="451"/>
+	<SubTexture name="DVidle0005" x="2516" y="923" width="413" height="451"/>
+	<SubTexture name="DVidle0006" x="2934" y="923" width="413" height="451"/>
+	<SubTexture name="DVidle0007" x="2934" y="923" width="413" height="451"/>
+	<SubTexture name="DVtalk0000" x="3352" y="923" width="416" height="457" pivotX="1.6" pivotY="6.4"/>
+	<SubTexture name="DVtalk0001" x="3352" y="923" width="416" height="457"/>
+	<SubTexture name="DVtalk0002" x="5" y="1385" width="416" height="457"/>
+	<SubTexture name="DVtalk0003" x="5" y="1385" width="416" height="457"/>
+	<SubTexture name="DVtalk0004" x="426" y="1385" width="416" height="457"/>
+	<SubTexture name="DVtalk0005" x="426" y="1385" width="416" height="457"/>
+	<SubTexture name="GFidle0000" x="847" y="1385" width="413" height="451" pivotX="0" pivotY="0"/>
+	<SubTexture name="GFidle0001" x="847" y="1385" width="413" height="451"/>
+	<SubTexture name="GFidle0002" x="1265" y="1385" width="413" height="451"/>
+	<SubTexture name="GFidle0003" x="1265" y="1385" width="413" height="451"/>
+	<SubTexture name="GFidle0004" x="847" y="1385" width="413" height="451"/>
+	<SubTexture name="GFidle0005" x="847" y="1385" width="413" height="451"/>
+	<SubTexture name="GFidle0006" x="1265" y="1385" width="413" height="451"/>
+	<SubTexture name="GFidle0007" x="1265" y="1385" width="413" height="451"/>
+	<SubTexture name="GFidle0008" x="847" y="1385" width="413" height="451"/>
+	<SubTexture name="GFidle0009" x="847" y="1385" width="413" height="451"/>
+	<SubTexture name="GFtalk0000" x="1683" y="1385" width="423" height="462" pivotX="4.75" pivotY="10.85"/>
+	<SubTexture name="GFtalk0001" x="1683" y="1385" width="423" height="462"/>
+	<SubTexture name="GFtalk0002" x="2111" y="1385" width="423" height="462"/>
+	<SubTexture name="GFtalk0003" x="2111" y="1385" width="423" height="462"/>
+	<SubTexture name="GFtalk0004" x="2539" y="1385" width="423" height="462"/>
+	<SubTexture name="GFtalk0005" x="2539" y="1385" width="423" height="462"/>
+	<SubTexture name="UhOh0000" x="2967" y="1385" width="413" height="451" pivotX="0" pivotY="0"/>
+	<SubTexture name="UhOh0001" x="3385" y="1385" width="413" height="451"/>
+	<SubTexture name="UhOh0002" x="5" y="1852" width="413" height="451"/>
+	<SubTexture name="UhOh0003" x="423" y="1852" width="413" height="451"/>
+	<SubTexture name="UhOh0004" x="841" y="1852" width="413" height="451"/>
+	<SubTexture name="UhOh0005" x="1259" y="1852" width="413" height="451"/>
+	<SubTexture name="UhOh0006" x="1677" y="1852" width="413" height="451"/>
+</TextureAtlas>

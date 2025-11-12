@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "stare",
+	"idle_anim": "idle",
+	"position": [
+		444,
+		171
+	],
+	"scale": 0.5,
+	"image": "ced_story",
+	"flipX": false
+}

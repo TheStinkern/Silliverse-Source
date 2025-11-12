@@ -1,0 +1,50 @@
+{
+	"storyName": "Clown Dave",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "clown",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Sigma House",
+			"clown",
+			[
+				255,
+				73,
+				133
+			]
+		],
+		[
+			"Not Clowning Around",
+			"clownmad",
+			[
+				255,
+				73,
+				133
+			]
+		],
+		[
+			"3-Deez",
+			"clown3dee",
+			[
+				115,
+				20,
+				73
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "GRAAHH",
+	"hiddenUntilUnlocked": false
+}

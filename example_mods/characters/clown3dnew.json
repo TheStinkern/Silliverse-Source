@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-25,
+				97
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-17,
+				-19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				148,
+				7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-102,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				3,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/clown3d",
+	"position": [
+		-270,
+		-340
+	],
+	"healthicon": "clown3dee",
+	"flip_x": false,
+	"healthbar_colors": [
+		248,
+		49,
+		83
+	],
+	"camera_position": [
+		-20,
+		-40
+	],
+	"sing_duration": 10,
+	"scale": 1.1,
+	"_editor_isPlayer": false
+}
