@@ -46,6 +46,8 @@ class CreditsState extends MusicBeatState
 			['FloraT1P',				'flora',			'Composer',						 'https://x.com/floracolonthree',		'EF00FF'],
 			['blud3332',				'blud',			'Artist, Animator',						 'https://x.com/blud3332',		'c68278'],
 			['jon',				'jon',			'Artist, Animator',						 'https://x.com/jonchumbbum',		'2e3b70'],
+			['nex',				'nex',			'Composer',						 'https://x.com/NexR3AL',		'2e3b70'],
+			['cinder',				'cinder',			'Composer',						 'https://youtube.com/@datdosg',		'2e3b70'],
 			/*['Gangter',				'gangter',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
 			['Nik',				'nik',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
 			['Quinn',				'quinn',			'Animator, Composer, Charter, and Build manager',						 'https://www.youtube.com/@TimmyRayBurtin',		'614E92'],
