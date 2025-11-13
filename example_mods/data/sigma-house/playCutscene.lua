@@ -1,10 +1,10 @@
-playVideo = false;
+playVideo = true;
 playDialogue = true;
 
 function onStartCountdown()
 	if isStoryMode and not seenCutscene then
 		if playVideo then --Video cutscene plays first
-			startVideo('video'); --Play video file from "videos/" folder
+			startVideo('sigmaHouseCutscene'); --Play video file from "videos/" folder
 			playVideo = false;
 			return Function_Stop; --Prevents the song from starting naturally
 		elseif playDialogue then --Once the video ends it calls onStartCountdown again. Play dialogue this time
