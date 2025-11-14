@@ -1,4 +1,4 @@
-playVideo = true;
+playVideo = false;
 playDialogue = true;
 
 function onStartCountdown()
