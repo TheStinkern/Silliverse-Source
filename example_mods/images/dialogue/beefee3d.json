@@ -1,0 +1,38 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		30,
+		-140
+	],
+	"no_antialiasing": true,
+	"scale": 1,
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "corny ahh",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "pointAnim",
+			"loop_name": "pointTalk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "shock",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "shockAnim",
+			"loop_name": "shockTalk"
+		}
+	],
+	"image": "beefee3ddialgo"
+}

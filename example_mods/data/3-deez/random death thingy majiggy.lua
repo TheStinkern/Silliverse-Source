@@ -71,8 +71,9 @@ function onUpdate()
       randomNum = getRandomInt(1, maxVal);
     end
   end
+
 end
 
 function onUpdatePost()
-  setPropertyFromClass('substates.GameOverSubstate', 'deathSoundName', 'death3D/3die-' .. randomNum);
+  --setPropertyFromClass('substates.GameOverSubstate', 'deathSoundName', 'death3D/3die-' .. randomNum);
 end

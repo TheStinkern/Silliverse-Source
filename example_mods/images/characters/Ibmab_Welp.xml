@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Ibmab_Welp.png">
+	<!-- Created with Adobe Animate version 24.0.3.19 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle0000" x="12" y="12" width="298" height="285" pivotX="89.35" pivotY="146.35" frameX="-6" frameY="-8" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0001" x="315" y="12" width="291" height="277" frameX="-15" frameY="-16" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0002" x="611" y="12" width="291" height="277" frameX="-15" frameY="-16" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0003" x="907" y="12" width="281" height="280" frameX="-20" frameY="-13" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0004" x="1193" y="12" width="281" height="280" frameX="-20" frameY="-13" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0005" x="1479" y="12" width="295" height="289" frameX="-4" frameY="-4" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0006" x="12" y="306" width="295" height="289" frameX="-4" frameY="-4" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0007" x="312" y="306" width="302" height="293" frameX="0" frameY="0" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0008" x="312" y="306" width="302" height="293" frameX="0" frameY="0" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0009" x="619" y="306" width="300" height="293" frameX="-3" frameY="0" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0010" x="619" y="306" width="300" height="293" frameX="-3" frameY="0" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0011" x="619" y="306" width="300" height="293" frameX="-3" frameY="0" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0012" x="619" y="306" width="300" height="293" frameX="-3" frameY="0" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="Idle0013" x="924" y="306" width="300" height="293" frameX="-3" frameY="0" frameWidth="306" frameHeight="293"/>
+	<SubTexture name="welp0000" x="1229" y="306" width="304" height="283" pivotX="127.45" pivotY="149.5" frameX="-52" frameY="-12" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0001" x="1538" y="306" width="304" height="283" frameX="-52" frameY="-12" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0002" x="12" y="604" width="369" height="296" frameX="-4" frameY="0" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0003" x="12" y="604" width="369" height="296" frameX="-4" frameY="0" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0004" x="386" y="604" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0005" x="386" y="604" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0006" x="765" y="604" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0007" x="1144" y="604" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0008" x="1144" y="604" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0009" x="1523" y="604" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0010" x="12" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0011" x="12" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0012" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0013" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0014" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0015" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0016" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0017" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0018" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0019" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0020" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0021" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0022" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0023" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0024" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0025" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+	<SubTexture name="welp0026" x="391" y="905" width="374" height="293" frameX="0" frameY="-3" frameWidth="374" frameHeight="296"/>
+</TextureAtlas>

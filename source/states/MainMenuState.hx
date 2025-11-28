@@ -3,7 +3,6 @@ package states;
 import flixel.FlxObject;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.effects.FlxFlicker;
-import flixel.ui.FlxButton;
 import lime.app.Application;
 import states.editors.MasterEditorMenu;
 import options.OptionsState;
@@ -28,11 +27,16 @@ class MainMenuState extends MusicBeatState
 	public static var menuBg:FlxSprite;
 
 	var magenta:FlxSprite;
+	var pig:FlxSprite;
+	var pigJumpscare:FlxSprite;
+
 	var camFollow:FlxObject;
 
 	override function create()
 	{
-		FlxG.mouse.visible = true;
+		var ewie:Float = FlxG.random.int(1, 3);
+
+		
 		#if MODS_ALLOWED
 		Mods.pushGlobalMods();
 		#end
@@ -56,10 +60,10 @@ class MainMenuState extends MusicBeatState
 		menuBg.updateHitbox();
 		menuBg.screenCenter();
 		if (ClientPrefs.data.darkMode) {
-			menuBg.color = 0xff874a24;
+			menuBg.color = 0xff4e6fac;
 		}
 		else {
-			menuBg.color = 0xffeabb4c;
+			menuBg.color = 0xffc4748f;
 		}
 		add(menuBg);
 
@@ -73,11 +77,12 @@ class MainMenuState extends MusicBeatState
 		magenta.updateHitbox();
 		magenta.screenCenter();
 		magenta.visible = false;
-		if (!ClientPrefs.data.darkMode) {
-			magenta.color = 0xFFfd719b;
+
+		if (ClientPrefs.data.darkMode) {
+			magenta.color = 0xff1db6a9;
 		}
 		else{
-			magenta.color = 0xff843b88;
+			magenta.color = 0xffe01c57;
 		}
 		add(magenta);
 
@@ -110,17 +115,41 @@ class MainMenuState extends MusicBeatState
 
 		var silliVer:FlxText = new FlxText(12, FlxG.height - 64, 0, "Silliverse " + psychEngineVersion, 12);
 		silliVer.scrollFactor.set();
-		silliVer.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		silliVer.setFormat(Paths.font('vcr.ttf'), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(silliVer);
 		var psychVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v0.7.3", 12);
 		psychVer.scrollFactor.set();
-		psychVer.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		psychVer.setFormat(Paths.font('vcr.ttf'), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(psychVer);
 		var fnfVer:FlxText = new FlxText(12, FlxG.height - 24, 0, "Friday Night Funkin' v" + Application.current.meta.get('version'), 12);
 		fnfVer.scrollFactor.set();
-		fnfVer.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		fnfVer.setFormat(Paths.font('vcr.ttf'), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(fnfVer);
 		changeItem();
+		
+		pig = new FlxSprite().loadGraphic(Paths.image('mainmenu/pig'));
+		pig.x = (FlxG.width / 2) - (pig.width / 2);
+		pig.alpha = 0.8;
+
+		if (ewie != 1)
+			pig.visible = false;
+		else 
+			FlxG.mouse.visible = true;
+
+		pig.antialiasing = false;
+		pig.scrollFactor.set(0, 0);
+		add(pig);
+
+		pigJumpscare = new FlxSprite().loadGraphic(Paths.image('mainmenu/pigJumpscare'));
+		pigJumpscare.antialiasing = false;
+		pigJumpscare.scrollFactor.set(0, 0);
+		pigJumpscare.setGraphicSize(Std.int(pigJumpscare.width * 1.3));
+		
+		pigJumpscare.screenCenter();
+		
+
+
+		//magenta.visible = false;
 
 		#if ACHIEVEMENTS_ALLOWED
 		// Unlocks "Freaky on a Friday Night" achievement if it's a Friday and between 18:00 PM and 23:59 PM
@@ -149,6 +178,20 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+		if (FlxG.mouse.overlaps(pig) && FlxG.mouse.justPressed && (pig.visible == true))
+		{
+			add(pigJumpscare);
+			FlxG.sound.play(Paths.sound('scream'));
+			new FlxTimer().start(0.5, function(tmr:FlxTimer)
+				{
+					Sys.exit(0);
+				});
+		}
+		if (pigJumpscare != null) {
+			pigJumpscare.offset.x = FlxG.random.int(-12, 12);
+			pigJumpscare.offset.y = FlxG.random.int(-12, 12);
+			pigJumpscare.angle = FlxG.random.int(-7, 7);
+		}
 		if (FlxG.sound.music.volume < 0.8)
 		{
 			FlxG.sound.music.volume += 0.5 * elapsed;

@@ -1,0 +1,25 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-140,
+		-110
+	],
+	"no_antialiasing": true,
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				-3,
+				-4
+			],
+			"idle_offsets": [
+				-19,
+				-14
+			],
+			"loop_name": "scaredT",
+			"idle_name": "scaredI"
+		}
+	],
+	"image": "clown3deezlogue"
+}

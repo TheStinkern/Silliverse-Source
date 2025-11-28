@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="clown3ddia.png">
+<SubTexture name="talk0000" x="714" y="490" width="369" height="457" frameX="-107" frameY="-169" frameWidth="625" frameHeight="766" />
+<SubTexture name="talk0001" x="714" y="490" width="369" height="457" frameX="-107" frameY="-169" frameWidth="625" frameHeight="766" />
+<SubTexture name="talk0002" x="356" y="490" width="358" height="473" frameX="-137" frameY="-154" frameWidth="625" frameHeight="766" />
+<SubTexture name="talk0003" x="356" y="490" width="358" height="473" frameX="-137" frameY="-154" frameWidth="625" frameHeight="766" />
+<SubTexture name="talk0004" x="0" y="490" width="356" height="478" frameX="-151" frameY="-159" frameWidth="625" frameHeight="766" />
+<SubTexture name="talk0005" x="0" y="490" width="356" height="478" frameX="-151" frameY="-159" frameWidth="625" frameHeight="766" />
+<SubTexture name="idle0000" x="0" y="0" width="371" height="490" frameX="-138" frameY="-148" frameWidth="625" frameHeight="766" />
+<SubTexture name="idle0001" x="0" y="0" width="371" height="490" frameX="-138" frameY="-148" frameWidth="625" frameHeight="766" />
+<SubTexture name="idle0002" x="0" y="0" width="371" height="490" frameX="-138" frameY="-148" frameWidth="625" frameHeight="766" />
+<SubTexture name="idle0003" x="747" y="0" width="375" height="486" frameX="-140" frameY="-153" frameWidth="625" frameHeight="766" />
+<SubTexture name="idle0004" x="747" y="0" width="375" height="486" frameX="-140" frameY="-153" frameWidth="625" frameHeight="766" />
+<SubTexture name="idle0005" x="747" y="0" width="375" height="486" frameX="-140" frameY="-153" frameWidth="625" frameHeight="766" />
+<SubTexture name="idle0006" x="371" y="0" width="376" height="490" frameX="-139" frameY="-152" frameWidth="625" frameHeight="766" />
+<SubTexture name="idle0007" x="371" y="0" width="376" height="490" frameX="-139" frameY="-152" frameWidth="625" frameHeight="766" />
+<SubTexture name="idle0008" x="371" y="0" width="376" height="490" frameX="-139" frameY="-152" frameWidth="625" frameHeight="766" />
+</TextureAtlas>

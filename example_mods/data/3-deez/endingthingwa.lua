@@ -14,15 +14,15 @@ function onCreatePost()
 end
 luaDebugMode = true;
 function onBeatHit()
-  if curBeat == 620 then
+  if curBeat == 752 then
     showEnding()
   end
 end
 
 function showEnding()
   if ((getProperty('ratingPercent') * 100)) > 50 then
-    doTweenAlpha('gaydfydyfs', 'goodEnd', 1, 0.4, 'expoOut')
+    doTweenAlpha('gaydfydyfs', 'goodEnd', 1, 0.7, 'expoOut')
   else
-    doTweenAlpha('gaydfydyfs', 'badEnd', 1, 0.4, 'expoOut')
+    doTweenAlpha('gaydfydyfs', 'badEnd', 1, 0.7, 'expoOut')
   end
 end

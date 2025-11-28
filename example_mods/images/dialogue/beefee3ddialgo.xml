@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="beefee3ddialgo.png">
+<SubTexture name="shockIdle0000" x="896" y="0" width="467" height="682" frameX="-139" frameY="-45" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockIdle0001" x="896" y="0" width="467" height="682" frameX="-139" frameY="-45" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockIdle0002" x="896" y="0" width="467" height="682" frameX="-139" frameY="-45" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockIdle0003" x="896" y="0" width="467" height="682" frameX="-139" frameY="-45" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockIdle0004" x="1363" y="0" width="467" height="682" frameX="-139" frameY="-45" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockIdle0005" x="1363" y="0" width="467" height="682" frameX="-139" frameY="-45" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockIdle0006" x="1363" y="0" width="467" height="682" frameX="-139" frameY="-45" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockIdle0007" x="1363" y="0" width="467" height="682" frameX="-139" frameY="-45" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockAnim0000" x="896" y="0" width="467" height="682" frameX="-139" frameY="-45" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockAnim0001" x="896" y="0" width="467" height="682" frameX="-139" frameY="-45" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockAnim0002" x="896" y="0" width="467" height="682" frameX="-139" frameY="-45" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockAnim0003" x="896" y="0" width="467" height="682" frameX="-139" frameY="-45" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockAnim0004" x="0" y="0" width="450" height="696" frameX="-147" frameY="-30" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockAnim0005" x="0" y="0" width="450" height="696" frameX="-147" frameY="-30" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockAnim0006" x="0" y="0" width="450" height="696" frameX="-147" frameY="-30" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockAnim0007" x="0" y="0" width="450" height="696" frameX="-147" frameY="-30" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockAnim0008" x="0" y="696" width="479" height="671" frameX="-133" frameY="-57" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockAnim0009" x="0" y="696" width="479" height="671" frameX="-133" frameY="-57" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockAnim0010" x="0" y="696" width="479" height="671" frameX="-133" frameY="-57" frameWidth="750" frameHeight="800" />
+<SubTexture name="shockAnim0011" x="0" y="696" width="479" height="671" frameX="-133" frameY="-57" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointIdle0000" x="479" y="696" width="467" height="669" frameX="-123" frameY="-48" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointIdle0001" x="479" y="696" width="467" height="669" frameX="-123" frameY="-48" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointIdle0002" x="479" y="696" width="467" height="669" frameX="-123" frameY="-48" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointIdle0003" x="479" y="696" width="467" height="669" frameX="-123" frameY="-48" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointIdle0004" x="946" y="696" width="467" height="669" frameX="-123" frameY="-48" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointIdle0005" x="946" y="696" width="467" height="669" frameX="-123" frameY="-48" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointIdle0006" x="946" y="696" width="467" height="669" frameX="-123" frameY="-48" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointIdle0007" x="946" y="696" width="467" height="669" frameX="-123" frameY="-48" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointAnim0000" x="1830" y="0" width="487" height="669" frameX="-103" frameY="-48" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointAnim0001" x="1830" y="0" width="487" height="669" frameX="-103" frameY="-48" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointAnim0002" x="1830" y="0" width="487" height="669" frameX="-103" frameY="-48" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointAnim0003" x="1830" y="0" width="487" height="669" frameX="-103" frameY="-48" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointAnim0004" x="450" y="0" width="446" height="684" frameX="-137" frameY="-32" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointAnim0005" x="450" y="0" width="446" height="684" frameX="-137" frameY="-32" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointAnim0006" x="450" y="0" width="446" height="684" frameX="-137" frameY="-32" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointAnim0007" x="450" y="0" width="446" height="684" frameX="-137" frameY="-32" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointAnim0008" x="1830" y="669" width="469" height="649" frameX="-128" frameY="-69" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointAnim0009" x="1830" y="669" width="469" height="649" frameX="-128" frameY="-69" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointAnim0010" x="1830" y="669" width="469" height="649" frameX="-128" frameY="-69" frameWidth="750" frameHeight="800" />
+<SubTexture name="pointAnim0011" x="1830" y="669" width="469" height="649" frameX="-128" frameY="-69" frameWidth="750" frameHeight="800" />
+</TextureAtlas>

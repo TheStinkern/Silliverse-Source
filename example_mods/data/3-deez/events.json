@@ -962,17 +962,7 @@
 				]
 			],
 			[
-				139200,
-				[
-					[
-						"Fade Screen",
-						"0.5",
-						"1"
-					]
-				]
-			],
-			[
-				143700,
+				148500,
 				[
 					[
 						"Cam Zoom Tween",
@@ -992,7 +982,7 @@
 				]
 			],
 			[
-				144000,
+				148800,
 				[
 					[
 						"Cam Zoom (bounceOut)",
@@ -1017,12 +1007,12 @@
 				]
 			],
 			[
-				148800,
+				151200,
 				[
 					[
-						"instant cam pan",
-						"",
-						""
+						"Cam Zoom (out) ",
+						"0.65",
+						"1"
 					]
 				]
 			],
@@ -1030,49 +1020,9 @@
 				153600,
 				[
 					[
-						"Cinematics (UnderLap)",
-						"0.5",
-						"80"
-					],
-					[
-						"instant cam pan",
-						"",
-						""
-					]
-				]
-			],
-			[
-				154800,
-				[
-					[
-						"instant cam pan",
-						"",
-						""
-					]
-				]
-			],
-			[
-				156000,
-				[
-					[
 						"Cam Zoom (out) ",
-						"0.6",
-						"0.5"
-					],
-					[
-						"instant cam pan",
-						"",
-						""
-					]
-				]
-			],
-			[
-				157200,
-				[
-					[
-						"instant cam pan",
-						"",
-						""
+						"0.5",
+						"1"
 					]
 				]
 			],
@@ -1080,54 +1030,54 @@
 				158400,
 				[
 					[
-						"Cam Zoom (out) ",
-						"0.65",
-						"0.5"
+						"Cinematics (UnderLap)",
+						"1",
+						"90"
 					],
 					[
-						"instant cam pan",
-						"",
-						""
+						"Cam Zoom (out) ",
+						"0.6",
+						"1"
 					]
 				]
 			],
 			[
-				159600,
-				[
-					[
-						"instant cam pan",
-						"",
-						""
-					]
-				]
-			],
-			[
-				160800,
+				186900,
 				[
 					[
 						"Cam Zoom (out) ",
+						"0.8",
+						"0.2"
+					],
+					[
+						"vignetteEffect",
+						"1",
+						"0.5"
+					]
+				]
+			],
+			[
+				187196.25,
+				[
+					[
+						"vignetteEffect",
 						"0.7",
-						"0.5"
+						"1"
 					],
 					[
-						"instant cam pan",
-						"",
-						""
-					]
-				]
-			],
-			[
-				162000,
-				[
+						"Cinematics (UnderLap)",
+						"125",
+						"1"
+					],
 					[
-						"instant cam pan",
-						"",
+						"Flash Camera",
+						"1",
 						""
 					]
 				]
 			],
 			[
-				163194.375,
+				187200,
 				[
 					[
 						"bump_speed",
@@ -1137,37 +1087,17 @@
 				]
 			],
 			[
-				163200,
+				206475,
 				[
 					[
-						"Cam Zoom (out) ",
-						"0.57",
-						"0.5"
-					],
-					[
-						"Flash Camera",
-						"0.5",
-						""
-					],
-					[
-						"Cinematics (OverLap)",
-						"0.5",
+						"bump_speed",
+						"10099",
 						"0"
 					]
 				]
 			],
 			[
-				182396.25,
-				[
-					[
-						"bump_speed",
-						"8",
-						"1"
-					]
-				]
-			],
-			[
-				182400,
+				225600,
 				[
 					[
 						"Flash Camera",
@@ -1180,19 +1110,14 @@
 						"clowndave"
 					],
 					[
-						"Change Scroll Speed",
-						"0.8",
-						"0.5"
-					],
-					[
 						"Change Character",
 						"GF",
 						"gf-tv"
 					],
 					[
 						"Cam Zoom (bounceOut)",
-						"0.8",
-						"3.5"
+						"0.5",
+						"0.6"
 					],
 					[
 						"noteskinchange",
@@ -1203,26 +1128,6 @@
 						"Change Character",
 						"BF",
 						"bf-eble-better"
-					]
-				]
-			],
-			[
-				185400,
-				[
-					[
-						"Goodbye Hud",
-						"0",
-						"0.5"
-					]
-				]
-			],
-			[
-				186975,
-				[
-					[
-						"bump_speed",
-						"899",
-						"1"
 					]
 				]
 			]

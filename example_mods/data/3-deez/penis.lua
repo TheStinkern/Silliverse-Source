@@ -11,8 +11,8 @@ function onCreatePost()
 end
 
 function onUpdatePost()
-  setProperty('trisio n.angle', getProperty('trisio n.angle') + 0.25)
+  setProperty('trisio n.angle', getProperty('trisio n.angle') + 0.28)
   if curStep > 576 then
-    setProperty('trisio n.x', getProperty('trisio n.x') + 5)
+    setProperty('trisio n.x', getProperty('trisio n.x') + 3)
   end
 end

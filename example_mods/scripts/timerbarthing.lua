@@ -2,7 +2,7 @@
 luaDebugMode = true;
 local threeDeeSongs = {'3-Deez'};
 function onCreate()
-  if songName == '3-Deez' then
+  if songName == '3-deez' then
     makeLuaSprite('fakeTimeBar','fakeTimeBar3D', 1, -8)
     scaryEnviroment = true;
   else

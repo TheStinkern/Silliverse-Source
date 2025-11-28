@@ -14,10 +14,10 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			'bool'); //Variable type
 		addOption(option);
 
-		var option:Option = new Option('Middlescroll',
-			'If checked, your notes get centered.',
-			'middleScroll',
-			'bool');
+		var option:Option = new Option('Modcharts Enabled', //Name
+			'Should be pretty explainable...', //Description
+			'modchartEnabled', //Save data variable name
+			'bool'); //Variable type
 		addOption(option);
 
 		var option:Option = new Option('Opponent Notes',

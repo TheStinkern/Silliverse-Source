@@ -1,3 +1,5 @@
+luaDebugMode = true;
+
 function onCreatePost()
   defdadY = getProperty('dad.y')
   --debugPrint(defdadY)
@@ -6,12 +8,15 @@ function onUpdate()
   if curStep == 1211 then
     camTwistWoaah(0.55)
   end
-  if curStep == 2176 then
-    doTweenY('woahhhhh', 'dad', -800, 19, 'quadOut')
-  end
-  if curStep == 2432 then
-    setProperty('dad.y', -700)
-    doTweenY('go back you fucking dick', 'dad', -130, 2, 'quadOut')
+  --if curStep == 3008 then
+  --  setProperty('dad.y', -700)
+  --  doTweenY('go back you fucking dick', 'dad', -130, 0.5, 'quadOut')
+  --end
+end
+
+function onStepHit()  
+  if curStep == 2499 then
+    doTweenY('im shitting ok', 'dad', -1300, 13)
   end
 end
 

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="clown3deezlogue.png">
+<SubTexture name="scaredIdle0000" x="800" y="0" width="355" height="549" frameX="-258" frameY="-171" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredIdle0001" x="800" y="0" width="355" height="549" frameX="-258" frameY="-171" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredIdle0002" x="800" y="0" width="355" height="549" frameX="-258" frameY="-171" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredIdle0003" x="800" y="0" width="355" height="549" frameX="-258" frameY="-171" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredIdle0004" x="364" y="551" width="358" height="537" frameX="-256" frameY="-183" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredIdle0005" x="364" y="551" width="358" height="537" frameX="-256" frameY="-183" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredIdle0006" x="364" y="551" width="358" height="537" frameX="-256" frameY="-183" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredIdle0007" x="364" y="551" width="358" height="537" frameX="-256" frameY="-183" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredTalk0000" x="391" y="0" width="409" height="550" frameX="-241" frameY="-181" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredTalk0001" x="391" y="0" width="409" height="550" frameX="-241" frameY="-181" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredTalk0002" x="391" y="0" width="409" height="550" frameX="-241" frameY="-181" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredTalk0003" x="391" y="0" width="409" height="550" frameX="-241" frameY="-181" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredTalk0004" x="0" y="0" width="391" height="551" frameX="-249" frameY="-183" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredTalk0005" x="0" y="0" width="391" height="551" frameX="-249" frameY="-183" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredTalk0006" x="0" y="0" width="391" height="551" frameX="-249" frameY="-183" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredTalk0007" x="0" y="0" width="391" height="551" frameX="-249" frameY="-183" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredTalk0008" x="0" y="551" width="364" height="544" frameX="-273" frameY="-189" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredTalk0009" x="0" y="551" width="364" height="544" frameX="-273" frameY="-189" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredTalk0010" x="0" y="551" width="364" height="544" frameX="-273" frameY="-189" frameWidth="853" frameHeight="822" />
+<SubTexture name="scaredTalk0011" x="0" y="551" width="364" height="544" frameX="-273" frameY="-189" frameWidth="853" frameHeight="822" />
+</TextureAtlas>

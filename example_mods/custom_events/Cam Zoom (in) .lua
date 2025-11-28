@@ -12,7 +12,14 @@ function onEvent(name, value1, value2)
 			setProperty('camGame.screenZoom', targetZoom);
 		else
 			doTweenZoom('screenZoom', 'camGame', targetZoom, duration, 'easeIn');
+			setProperty('camZooning', false)
 		end
 		--debugPrint('Event triggered: ', name, targetZoom, duration);
+	end
+end
+
+function onTweenCompleted(t)
+	if t == 'screenZoom' then
+		setProperty('camZooning', true)
 	end
 end

@@ -1,5 +1,7 @@
 function changeCamangle(val,time,tween)
-  doTweenAngle('changeCamHUDangle', 'camHUD', val, time, tween)
+  if modchartEnabled then
+    doTweenAngle('changeCamHUDangle', 'camHUD', val, time, tween)
+  end
 end
 
 function onStepHit()

@@ -8,7 +8,7 @@ advancedCredits = true; -- explainable, adds three more credit lines
 
 --- advanced credits ---
 
-coder = '! Stinko';
+coder = 'Stinko';
 visuals = 'SamStrawberrie, Blud3332';
 charter = 'Blud3332';
 
@@ -61,7 +61,7 @@ this is made for D&B: Silliverse
 
 
 function onCreate()
-	makeLuaSprite('shit', 'creditSprites/disk', 1200, -200)
+	makeLuaSprite('shit', 'creditSprites/diskibmab', 1200, -200)
 	  addLuaSprite('shit', true)
     setProperty('shit.scale.x',0.4)
     setProperty('shit.scale.y',0.4)

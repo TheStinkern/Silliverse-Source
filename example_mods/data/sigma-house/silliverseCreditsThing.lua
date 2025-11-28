@@ -8,7 +8,7 @@ advancedCredits = true; -- explainable, adds three more credit lines
 
 --- advanced credits ---
 
-coder = '! Stinko';
+coder = 'Stinko';
 visuals = 'TimmyBurter, Jon, SamStrawberrie';
 charter = 'TimmyBurter';
 

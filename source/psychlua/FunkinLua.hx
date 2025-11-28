@@ -173,8 +173,9 @@ class FunkinLua {
 		set('gfName', PlayState.SONG.gfVersion);
 
 		// Other settings
+		set('modchartEnabled', ClientPrefs.data.modchartEnabled);
 		set('downscroll', ClientPrefs.data.downScroll);
-		set('middlescroll', ClientPrefs.data.middleScroll);
+		//set('middlescroll', ClientPrefs.data.middleScroll);
 		set('framerate', ClientPrefs.data.framerate);
 		set('ghostTapping', ClientPrefs.data.ghostTapping);
 		set('hideHud', ClientPrefs.data.hideHud);

@@ -1,80 +1,80 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-25,
-				97
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-30,
+				123
+			],
 			"anim": "singUP",
-			"indices": [],
-			"name": "up"
+			"fps": 24,
+			"name": "up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-17,
 				-19
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "down"
+			"fps": 24,
+			"name": "down",
+			"indices": []
 		},
 		{
-			"offsets": [
-				148,
-				7
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				220,
+				9
+			],
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
-		},
-		{
-			"offsets": [
-				-102,
-				-9
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "right"
+			"name": "left",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				-162,
+				-26
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				3,
 				-10
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "idle"
+			"fps": 24,
+			"name": "idle",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": true,
 	"image": "characters/clown3d",
 	"position": [
-		-270,
-		-340
+		-250,
+		-380
 	],
 	"healthicon": "clown3dee",
 	"flip_x": false,
 	"healthbar_colors": [
-		248,
-		49,
-		83
+		168,
+		9,
+		175
 	],
 	"camera_position": [
-		-20,
-		-40
+		-10,
+		-140
 	],
 	"sing_duration": 10,
-	"scale": 1.1,
+	"scale": 1.2,
 	"_editor_isPlayer": false
 }

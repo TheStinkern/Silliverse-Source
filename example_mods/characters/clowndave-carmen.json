@@ -1,21 +1,25 @@
 {
 	"animations": [
 		{
+			"loop": true,
 			"offsets": [
 				-18,
 				-129
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": true,
-			"name": "wtfLoop"
+			"fps": 24,
+			"name": "wtfLoop",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				105,
 				-120
 			],
+			"anim": "reaction",
+			"fps": 12,
+			"name": "wtfReact",
 			"indices": [
 				1,
 				2,
@@ -38,17 +42,17 @@
 				19,
 				20,
 				21
-			],
-			"fps": 12,
-			"anim": "reaction",
-			"loop": false,
-			"name": "wtfReact"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				219,
 				-73
 			],
+			"anim": "slapBuild",
+			"fps": 12,
+			"name": "slapBuild",
 			"indices": [
 				1,
 				2,
@@ -96,22 +100,18 @@
 				15,
 				15,
 				15
-			],
-			"fps": 12,
-			"anim": "slapBuild",
-			"loop": false,
-			"name": "slapBuild"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				197,
 				-77
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "slap",
-			"loop": false,
-			"name": "THESLAP"
+			"fps": 16,
+			"name": "THESLAP",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
@@ -121,7 +121,7 @@
 		110,
 		160
 	],
-	"healthicon": "clown",
+	"healthicon": "clownCarmen",
 	"flip_x": false,
 	"healthbar_colors": [
 		211,

@@ -10,10 +10,10 @@ function onCreate()
 	setScrollFactor("bg", 0.5, 0)
 	scaleObject("bg", 1, 1)
 
-	makeAnimatedLuaSprite('bgLoop','3dBgLoop',loopBgX, loopBgY)
+	--[[makeAnimatedLuaSprite('bgLoop','3dBgLoop',loopBgX, loopBgY)
 	--addLuaSprite('bgLoop',false)
 	setScrollFactor("bgLoop", 0.5, 0)
-	scaleObject("bgLoop", 4, 4)
+	scaleObject("bgLoop", 4, 4)]]
 
 	makeLuaSprite('bd','3deeBack',-800, -400)
 	addLuaSprite('bd',false)
@@ -21,12 +21,12 @@ function onCreate()
 	scaleObject("bd", 2.5, 2.5)
 	setProperty('bd.antialiasing', false);
 	
-	makeAnimatedLuaSprite('bd2','3deezBd2',-500, -700)
+	makeAnimatedLuaSprite('bd2','3deezBd2',-900, -1200)
 	addLuaSprite('bd2',false)
 	setScrollFactor("bd2", 0.7, 0.7)
-	scaleObject("bd2", 5, 5)
+	scaleObject("bd2", 9, 9)
 	setProperty('bd2.antialiasing', false);
-	addAnimationByPrefix('bd2', 'realIdle', 'realIdle', 42, true)
+	addAnimationByPrefix('bd2', 'realIdle', 'realIdle', 24, true)
 	playAnim('bd2', 'realIdle', true)
 
 	makeLuaSprite('mg','3deeOhio',-990, -785.45)
@@ -78,15 +78,13 @@ function onUpdatePost(elapsed)
 	setShaderFloat('bg', 'uTime', os.clock())
 	if not lowQuality then
 		doTweenY('thingy', 'bd.offset', -30*math.sin((((getSongPosition()/600)*(bpm/160))*0.1)*math.pi),0.001)
-
-		if curStep < 2176 and songName == '3-Deez' or curStep < 2176 and songName == '3-deez' then
-			doTweenY('dadTweenY2', 'dad', defaultDad_Y-80*math.sin((((getSongPosition()/600)*(bpm/160))*0.1)*math.pi),0.001)
-
-		elseif songName ~= '3-deez' and songName ~= '3-Deez' then
+		if (string.lower(songName .. '')) == '3-deez' then
+			if curStep < 2496 then
+				doTweenY('dadTweenY2', 'dad', defaultDad_Y-80*math.sin((((getSongPosition()/600)*(bpm/160))*0.1)*math.pi),0.001)
+			end
+		else
 			doTweenY('dadTweenY21', 'dad', defaultDad_Y-80*math.sin((((getSongPosition()/600)*(bpm/160))*0.1)*math.pi),0.001)
-
 		end
-
 		doTweenY('dadTweenY3', 'boyfriend', defaultBf_Y-80*math.sin((((getSongPosition()/800)*(bpm/160))*0.1)*math.pi),0.001)
 	end
 end

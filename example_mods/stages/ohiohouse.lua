@@ -18,7 +18,7 @@ function onCreate()
 	--addOffset('ferb', 'danceRight', -18, 4)
 	scaleObject("ferb", 1.2, 1.2)
 	addLuaSprite("ferb", false)
-	if getRandomInt(1, 100) == 1 then
+	if getRandomInt(1, 10) == 1 then
 		setProperty('ferb.visible', true)
 	else
 		setProperty('ferb.visible', false)

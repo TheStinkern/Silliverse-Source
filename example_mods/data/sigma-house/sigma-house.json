@@ -1542,11 +1542,6 @@
 				"sectionBeats": 4,
 				"sectionNotes": [
 					[
-						55272.7272727273,
-						0,
-						0
-					],
-					[
 						55454.5454545455,
 						1,
 						0
@@ -1579,6 +1574,11 @@
 					[
 						56545.4545454546,
 						2,
+						0
+					],
+					[
+						55272.7272727273,
+						0,
 						0
 					]
 				],
@@ -1831,11 +1831,6 @@
 					[
 						65818.1818181819,
 						3,
-						0
-					],
-					[
-						65636.3636363637,
-						1,
 						0
 					],
 					[
@@ -5252,58 +5247,7 @@
 				"mustHitSection": true
 			}
 		],
-		"events": [
-			[
-				94545.4545454546,
-				[
-					[
-						"Change Character",
-						"dad",
-						"clowndave-carmen"
-					],
-					[
-						"Play Animation",
-						"reaction",
-						"dad"
-					]
-				]
-			],
-			[
-				122181.818181818,
-				[
-					[
-						"Play Animation",
-						"slapBuild",
-						"dad"
-					]
-				]
-			],
-			[
-				123454.545454546,
-				[
-					[
-						"Play Animation",
-						"slap",
-						"dad"
-					]
-				]
-			],
-			[
-				123636.363636364,
-				[
-					[
-						"flash",
-						"FFFFFF",
-						"1"
-					],
-					[
-						"Change Character",
-						"dad",
-						"clowndave"
-					]
-				]
-			]
-		],
+		"events": [],
 		"player2": "clowndave",
 		"disableNoteRGB": false,
 		"splashSkin": "noteSplashes",
@@ -5313,6 +5257,6 @@
 		"stage": "ohiohouse",
 		"validScore": true,
 		"bpm": 165,
-		"speed": 2.8
+		"speed": 2.9
 	}
 }

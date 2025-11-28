@@ -3,6 +3,8 @@ package cutscenes;
 import haxe.Json;
 import openfl.utils.Assets;
 
+import flixel.text.FlxText;
+
 import objects.TypedAlphabet;
 import cutscenes.DialogueCharacter;
 
@@ -35,9 +37,11 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	public var finishThing:Void->Void;
 	public var nextDialogueThing:Void->Void = null;
 	public var skipDialogueThing:Void->Void = null;
+
 	var bgFade:FlxSprite = null;
 	var box:FlxSprite;
 	var textToType:String = '';
+	var skipDialogueTxt:FlxText = null;
 
 	var arrayCharacters:Array<DialogueCharacter> = [];
 
@@ -92,6 +96,10 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		daText = new TypedAlphabet(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, '');
 		daText.setScale(0.7);
 		add(daText);
+
+		skipDialogueTxt = new FlxText(0, 4, 0, 'Press Ctrl+Enter to skip the Dialogue', 8);
+		add(skipDialogueTxt);
+		skipDialogueTxt.x = (FlxG.width / 2) - (skipDialogueTxt.width / 2);
 
 		startNextDialog();
 	}
@@ -152,6 +160,11 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	public var closeVolume:Float = 1;
 	override function update(elapsed:Float)
 	{
+		if ((FlxG.keys.pressed.CONTROL) && (FlxG.keys.pressed.ENTER) && (!dialogueEnded && dialogueEnded != true)) {
+			finishThing();
+			dialogueEnded = true;
+		}
+
 		if(ignoreThisFrame) {
 			ignoreThisFrame = false;
 			super.update(elapsed);
@@ -265,6 +278,12 @@ class DialogueBoxPsych extends FlxSpriteGroup
 
 			if(bgFade != null) {
 				bgFade.alpha -= 0.5 * elapsed;
+				if ((skipDialogueTxt.alpha >= 0) && (skipDialogueTxt != null))
+					skipDialogueTxt.alpha -= 0.5 * elapsed;
+
+				if ((daText.alpha >= 0) && (daText != null))
+					daText.alpha -= 0.5 * elapsed;
+
 				if(bgFade.alpha <= 0) {
 					bgFade.kill();
 					remove(bgFade);

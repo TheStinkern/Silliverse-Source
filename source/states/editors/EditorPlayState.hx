@@ -421,12 +421,12 @@ class EditorPlayState extends MusicBeatSubstate
 						}
 
 						if (sustainNote.mustPress) sustainNote.x += FlxG.width / 2; // general offset
-						else if(ClientPrefs.data.middleScroll)
+						/*else if(ClientPrefs.data.middleScroll)
 						{
 							sustainNote.x += 310;
 							if(daNoteData > 1) //Up and Right
 								sustainNote.x += FlxG.width / 2 + 25;
-						}
+						}*/
 					}
 				}
 
@@ -434,14 +434,14 @@ class EditorPlayState extends MusicBeatSubstate
 				{
 					swagNote.x += FlxG.width / 2; // general offset
 				}
-				else if(ClientPrefs.data.middleScroll)
+				/*else if(ClientPrefs.data.middleScroll)
 				{
 					swagNote.x += 310;
 					if(daNoteData > 1) //Up and Right
 					{
 						swagNote.x += FlxG.width / 2 + 25;
 					}
-				}
+				}*/
 			}
 		}
 
@@ -450,7 +450,7 @@ class EditorPlayState extends MusicBeatSubstate
 	
 	private function generateStaticArrows(player:Int):Void
 	{
-		var strumLineX:Float = ClientPrefs.data.middleScroll ? PlayState.STRUM_X_MIDDLESCROLL : PlayState.STRUM_X;
+		var strumLineX:Float = PlayState.STRUM_X;
 		var strumLineY:Float = ClientPrefs.data.downScroll ? (FlxG.height - 150) : 50;
 		for (i in 0...4)
 		{
@@ -459,7 +459,7 @@ class EditorPlayState extends MusicBeatSubstate
 			if (player < 1)
 			{
 				if(!ClientPrefs.data.opponentStrums) targetAlpha = 0;
-				else if(ClientPrefs.data.middleScroll) targetAlpha = 0.35;
+				//else if(ClientPrefs.data.middleScroll) targetAlpha = 0.35;
 			}
 
 			var babyArrow:StrumNote = new StrumNote(strumLineX, strumLineY, i, player);
@@ -470,13 +470,13 @@ class EditorPlayState extends MusicBeatSubstate
 				playerStrums.add(babyArrow);
 			else
 			{
-				if(ClientPrefs.data.middleScroll)
+				/*if(ClientPrefs.data.middleScroll)
 				{
 					babyArrow.x += 310;
 					if(i > 1) { //Up and Right
 						babyArrow.x += FlxG.width / 2 + 25;
 					}
-				}
+				}*/
 				opponentStrums.add(babyArrow);
 			}
 
