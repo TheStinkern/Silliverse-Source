@@ -38,7 +38,7 @@ function onCreate()
 	makeAnimatedLuaSprite("mogus3d", "mogus3d", -200, 60)
 	addLuaSprite("mogus3d", false)
 	
-	makeLuaSprite('fg','3dfront',-620, -975.45)
+	makeLuaSprite('fg','3dfront',-475, -975.45)
 	addLuaSprite('fg',true)
 	setScrollFactor("fg", 1.3, 1.3)
 	scaleObject("fg", 4.5, 4.5)

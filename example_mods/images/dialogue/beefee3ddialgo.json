@@ -18,8 +18,8 @@
 				0,
 				0
 			],
-			"loop_name": "pointTalk",
-			"idle_name": "pointAnim"
+			"loop_name": "pointAnim",
+			"idle_name": "pointIdle"
 		},
 		{
 			"loop_offsets": [
@@ -31,8 +31,8 @@
 				0,
 				0
 			],
-			"loop_name": "shockTalk",
-			"idle_name": "shockAnim"
+			"loop_name": "shockAnim",
+			"idle_name": "shockIdle"
 		}
 	]
 }

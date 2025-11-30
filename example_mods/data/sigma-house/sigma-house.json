@@ -5252,7 +5252,7 @@
 		"disableNoteRGB": false,
 		"splashSkin": "noteSplashes",
 		"song": "Sigma House",
-		"needsVoices": true,
+		"needsVoices": false,
 		"arrowSkin": "",
 		"stage": "ohiohouse",
 		"validScore": true,

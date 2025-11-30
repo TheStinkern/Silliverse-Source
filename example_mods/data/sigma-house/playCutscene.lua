@@ -1,4 +1,4 @@
-playVideo = false; -- i genuinely dont know why the cutscene crashes the game
+playVideo = false;
 playDialogue = true;
 
 function onStartCountdown()

@@ -28,10 +28,18 @@ function onCreatePost()
     setProperty('timeBar.x', -157)
     setProperty('timeTxt.x', -102)
   else
+    
     setProperty('timeBar.y', 44)
     setProperty('timeTxt.y', 78)
-    setProperty('fakeTimeBar.y', 25)
-    setProperty('fakeTimeBar.x', 540)
+    if songName == '3-deez' then
+      setProperty('fakeTimeBar.y', 16)
+      setProperty('fakeTimeBar.x', 540)
+    else
+      setProperty('fakeTimeBar.y', 25)
+      setProperty('fakeTimeBar.x', 535)
+      setProperty('timeTxt.offset.x', 5.6)
+    end
+    
     setProperty('timeTxt.x', 439)
     setProperty('timeBar.x', 380)
   end

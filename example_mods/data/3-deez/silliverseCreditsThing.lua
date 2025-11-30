@@ -1,6 +1,6 @@
 font = 'vcr'; -- dont add ttf at the end, script already handles it
 diskBop_Intensity = 0.42; -- default is 0.42, post-tween size is 0.4
-songCreator = 'FloraT1P'; -- please make it a string
+songCreator = 'FloraT1P, SamStrawberrie, Stinko'; -- please make it a string
 
 advancedCredits = true; -- explainable, adds three more credit lines
 
@@ -8,7 +8,7 @@ advancedCredits = true; -- explainable, adds three more credit lines
 
 --- advanced credits ---
 
-coder = '! Stinko';
+coder = 'Stinko';
 visuals = 'Blud3332, Jon, SamStrawberrie, TimmyBurter';
 charter = 'TimmyBurter';
 
