@@ -4,89 +4,89 @@
 			"expression": "shock",
 			"text": "Oh my fucking god...",
 			"boxState": "normal",
-			"sound": "bfDialogue",
-			"speed": 0.05,
-			"portrait": "beefee3d"
-		},
-		{
-			"expression": "talk",
-			"text": "Boyfriend, I told you not to do that!-",
-			"boxState": "normal",
-			"portrait": "tvdiamore",
-			"speed": 0.05,
-			"sound": "daveDialogue"
-		},
-		{
-			"expression": "uhoh",
-			"text": "[TRANSMISSION ERROR]",
-			"boxState": "normal",
-			"sound": "static",
-			"speed": 0.035,
-			"portrait": "tvdiamore"
-		},
-		{
-			"expression": "ConnectionTerm",
-			"text": "[CONNECTION TERMINATED. ERROR CODE 540]",
-			"boxState": "normal",
-			"sound": "static",
-			"speed": 0.035,
-			"portrait": "tvdiamore"
-		},
-		{
-			"expression": "shock",
-			"text": "What does that mean.",
-			"boxState": "normal",
-			"sound": "bfDialogue",
-			"speed": 0.05,
-			"portrait": "beefee3d"
-		},
-		{
-			"expression": "man",
-			"text": "Well, I guess I don't have to hear dave teach me manners again! #[BEEFEE]Nation wins again guys!",
-			"boxState": "normal",
-			"portrait": "beefee",
+			"portrait": "beefee3d",
 			"speed": 0.05,
 			"sound": "bfDialogue"
 		},
 		{
 			"expression": "talk",
+			"text": "Boyfriend, I told you not to do that!-",
+			"boxState": "normal",
+			"sound": "daveDialogue",
+			"speed": 0.05,
+			"portrait": "tvdiamore"
+		},
+		{
+			"expression": "uhoh",
+			"text": "[TRANSMISSION ERROR]",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.035,
+			"sound": "static"
+		},
+		{
+			"expression": "ConnectionTerm",
+			"text": "[CONNECTION TERMINATED. ERROR CODE 540]",
+			"boxState": "normal",
+			"portrait": "tvdiamore",
+			"speed": 0.035,
+			"sound": "static"
+		},
+		{
+			"expression": "shock",
+			"text": "What does that mean.",
+			"boxState": "normal",
+			"portrait": "beefee3d",
+			"speed": 0.05,
+			"sound": "bfDialogue"
+		},
+		{
+			"expression": "man",
+			"text": "Well, I guess I don't have to hear dave teach me manners again! #[BEEFEE]Nation wins again guys!",
+			"boxState": "normal",
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee"
+		},
+		{
+			"expression": "talk",
 			"text": "--- .... / --. --- -.. / -. --- - / .- --. .- .. -.",
 			"boxState": "normal",
-			"sound": "clownDialogue",
+			"portrait": "clown3d",
 			"speed": 0.035,
-			"portrait": "clown3d"
+			"sound": "clownDialogue"
 		},
 		{
 			"expression": "talk",
 			"text": ".. / -.- -. --- .-- / -.-- --- ..- / .-- --- -. - / ..- -. -.. . .-. ... - .- -. -.. / - .... .. ... / -... ..- -",
 			"boxState": "normal",
-			"sound": "clownDialogue",
+			"portrait": "clown3d",
 			"speed": 0.035,
-			"portrait": "clown3d"
+			"sound": "clownDialogue"
 		},
 		{
 			"expression": "talk",
 			"text": ".. / -. . . -.. / -.-- --- ..- / - --- / -.- . . .--. / ... .. -. --. .. -. --.",
 			"boxState": "normal",
-			"sound": "clownDialogue",
+			"portrait": "clown3d",
 			"speed": 0.035,
-			"portrait": "clown3d"
+			"sound": "clownDialogue"
 		},
 		{
 			"expression": "talk",
 			"text": ".. - / .-- .. .-.. .-.. / .... . .-.. .--. / -- . / - ..- .-. -. / -... .- -.-. -.- / - --- / ..--- -..",
 			"boxState": "normal",
-			"sound": "clownDialogue",
+			"portrait": "clown3d",
 			"speed": 0.035,
-			"portrait": "clown3d"
+			"sound": "clownDialogue"
 		},
 		{
-			"expression": "talk",
+			"expression": "corny ahh",
 			"text": "Don't worry bud. With the power of MUSIC, I will save you...",
 			"boxState": "normal",
-			"sound": "bfDialogue",
+			"portrait": "beefee3d",
 			"speed": 0.05,
-			"portrait": "beefee3d"
+			"sound": "bfDialogue"
 		}
 	]
 }

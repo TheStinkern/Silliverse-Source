@@ -4,73 +4,73 @@
 			"expression": "nospin",
 			"text": "...",
 			"boxState": "normal",
-			"portrait": "clowndavedialoguemore",
+			"sound": "clownDialogue",
 			"speed": 0.27,
-			"sound": "clownDialogue"
+			"portrait": "clowndavedialoguemore"
 		},
 		{
 			"expression": "talk",
 			"text": "That song was so easy dude try harder next time",
 			"boxState": "normal",
-			"portrait": "beefee",
+			"sound": "bfDialogue",
 			"speed": 0.05,
-			"sound": "bfDialogue"
+			"portrait": "beefee"
 		},
 		{
 			"expression": "talk",
 			"text": "Alright man... You're starting to TICK me off...",
 			"boxState": "normal",
-			"portrait": "clowndavedialoguemore",
+			"sound": "clownDIalogue",
 			"speed": 0.05,
-			"sound": "clownDIalogue"
+			"portrait": "clowndavedialoguemore"
 		},
 		{
 			"expression": "jeus",
 			"text": "Boyfriend... I really don't think you should anger this person... You don't even know what could happen!",
 			"boxState": "normal",
-			"portrait": "tvdiamore",
+			"sound": "daveDialogue",
 			"speed": 0.05,
-			"sound": "daveDialogue"
+			"portrait": "tvdiamore"
 		},
 		{
 			"expression": "clueless",
 			"text": "PFFFF! Please... What is this chucklefuck gonna do? Throw a water balloon at me?",
 			"boxState": "normal",
-			"portrait": "beefee",
+			"sound": "bfDialogue",
 			"speed": 0.05,
-			"sound": "bfDialogue"
+			"portrait": "beefee"
 		},
 		{
 			"expression": "pissed",
 			"text": "Alright man, NOW you've pissed me off!",
 			"boxState": "angry",
-			"portrait": "clowndavedialoguemore",
+			"sound": "ClownDialogue",
 			"speed": 0.05,
-			"sound": "ClownDialogue"
+			"portrait": "clowndavedialoguemore"
 		},
 		{
 			"expression": "pissed",
-			"text": "I'm not gonna play around this time!",
+			"text": "I'm not gonna clown around anymore.",
 			"boxState": "angry",
-			"sound": "clownDialogue",
+			"portrait": "clowndavedialoguemore",
 			"speed": 0.05,
-			"portrait": "clowndavedialoguemore"
+			"sound": "clownDialogue"
 		},
 		{
 			"expression": "confused",
 			"text": "I actually hope you di-",
 			"boxState": "normal",
-			"portrait": "tvdiamore",
+			"sound": "daveDialogue",
 			"speed": 0.05,
-			"sound": "daveDialogue"
+			"portrait": "tvdiamore"
 		},
 		{
 			"expression": "dontworry",
 			"text": "Bring it on, clown boy!",
 			"boxState": "normal",
-			"portrait": "beefee",
+			"sound": "bfDialogue",
 			"speed": 0.05,
-			"sound": "bfDialogue"
+			"portrait": "beefee"
 		}
 	]
 }

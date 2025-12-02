@@ -1,52 +1,52 @@
 {
 	"dialogue": [
 		{
+			"expression": "happy",
+			"text": "Hey, that was actually kinda fun!",
+			"boxState": "normal",
 			"sound": "bmabDialogue",
 			"speed": 0.05,
-			"portrait": "ibmabdialogue",
-			"boxState": "normal",
-			"expression": "happy",
-			"text": "Hey, that was actually kinda fun!"
+			"portrait": "ibmabdialogue"
 		},
 		{
-			"sound": "bfDialogue",
-			"speed": 0.05,
-			"portrait": "beefee",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "yeah but im getting kinda bored tbh"
-		},
-		{
-			"sound": "daveDialogue",
-			"speed": 0.05,
-			"portrait": "tvdiamore",
-			"boxState": "normal",
 			"expression": "pissed",
-			"text": "Finally, can we please leave no-"
-		},
-		{
-			"sound": "bmabDialogue",
-			"speed": 0.05,
-			"portrait": "ibmabdialogue",
+			"text": "yeah but im getting kinda bored tbh",
 			"boxState": "normal",
-			"expression": "happy",
-			"text": "Hey, how about one more song?"
-		},
-		{
 			"sound": "bfDialogue",
 			"speed": 0.05,
-			"portrait": "beefee",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "yeah i could go for one more song"
+			"portrait": "beefee"
 		},
 		{
+			"expression": "pissed",
+			"text": "Finally, can we please leave no-",
+			"boxState": "normal",
 			"sound": "daveDialogue",
 			"speed": 0.05,
-			"portrait": "tvdiamore",
+			"portrait": "tvdiamore"
+		},
+		{
+			"expression": "happy",
+			"text": "Hey, how about one more song?",
 			"boxState": "normal",
+			"sound": "bmabDialogue",
+			"speed": 0.05,
+			"portrait": "ibmabdialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "yeah i could go for one more song",
+			"boxState": "normal",
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee"
+		},
+		{
 			"expression": "confused",
-			"text": "I give up."
+			"text": "I give up.",
+			"boxState": "normal",
+			"sound": "daveDialogue",
+			"speed": 0.05,
+			"portrait": "tvdiamore"
 		}
 	]
 }

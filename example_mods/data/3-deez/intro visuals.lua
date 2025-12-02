@@ -1,6 +1,8 @@
 local blockSize = 350;
      local shaderExists = true;
+
 luaDebugMode = true;
+
 function onCreate()
      makeLuaSprite('introFade')
      makeGraphic('introFade', screenWidth, screenHeight, '000000')
@@ -16,7 +18,9 @@ function onCreate()
      addLuaSprite('none', false)
      setProperty('none.visible', false)
 
-
+     makeLuaSprite('shaderValue', null, 350, 0)
+     addLuaSprite('shaderValue', false)
+     setProperty('shaderValue.alpha', 0)
 
 end
 
@@ -25,6 +29,7 @@ function onSongStart()
      doTweenAlpha('fadeOut', 'introFade', 0, 1)
 	runHaxeCode([[game.camGame.setFilters([new ShaderFilter(game.getLuaObject('theshader').shader)]);]])
      runHaxeCode([[game.camHUD.setFilters([new ShaderFilter(game.getLuaObject('theshader').shader)]);]])
+     doTweenX('decreaseValue', 'shaderValue', 0, 4.7)
 end
 
 function onCountdownTick()
@@ -32,13 +37,10 @@ function onCountdownTick()
 end
 
 function onUpdatePost()
-     if songStarted and shaderExists then
-          blockSize = blockSize - 1;
-     end
-     if blockSize <= 0 and shaderExists then
+     if getProperty('shaderValue.x') <= 0 and shaderExists then
           shaderExists = false;
           runHaxeCode([[game.camGame.setFilters([]);]])
           runHaxeCode([[game.camHUD.setFilters([]);]])
      end
-     setShaderFloatArray('theshader', 'uBlocksize', {blockSize, blockSize})
+     setShaderFloatArray('theshader', 'uBlocksize', {getProperty('shaderValue.x'), getProperty('shaderValue.x')})
 end

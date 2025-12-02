@@ -1,68 +1,68 @@
 {
 	"dialogue": [
 		{
-			"sound": "bmabDialogue",
-			"speed": 0.05,
-			"portrait": "ibmabdialogue",
-			"boxState": "normal",
 			"expression": "happy",
-			"text": "Ok! I was just messing around, I know how to speak more than Australian!"
-		},
-		{
-			"sound": "bfDialogue",
-			"speed": 0.05,
-			"portrait": "beefee",
+			"text": "Ok! I was just messing around, I know how to speak more than Australian!",
 			"boxState": "normal",
-			"expression": "ouch",
-			"text": "that's not even australian but ok i guess"
-		},
-		{
 			"sound": "bmabDialogue",
 			"speed": 0.05,
-			"portrait": "ibmabdialogue",
-			"boxState": "normal",
-			"expression": "talk",
-			"text": "Ok, but can you get out of my farm? I don't even know who you guys are, and I get a lot of people stealing my corn."
+			"portrait": "ibmabdialogue"
 		},
 		{
-			"sound": "bfDialogue",
-			"speed": 0.05,
-			"portrait": "beefee",
+			"expression": "pissed",
+			"text": "that's not even australian but ok i guess",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "Hmmmmm let me think about it ummmmmmmmmmmmmmm UHHHHHhHHHHHHHHHHHHHhHHHHHHHHHHHHHhHHHHHHHHHHHHp UHHHHHhHHHHHHHHHHHHHhHHHHHHHHHHHHHhHHHHHHHHHHHH Hold on one sec uhhh"
-		},
-		{
-			"sound": "bfDialogue",
-			"speed": 0.05,
-			"portrait": "beefee",
-			"boxState": "normal",
-			"expression": "clueless",
-			"text": "No!"
-		},
-		{
-			"sound": "bfDialogue",
-			"speed": 0.05,
-			"portrait": "beefee",
-			"boxState": "normal",
-			"expression": "determ",
-			"text": "Instead, I'm going to rap battle you again!"
-		},
-		{
-			"sound": "bmabDialogue",
-			"speed": 0.05,
-			"portrait": "ibmabdialogue",
-			"boxState": "normal",
-			"expression": "oh",
-			"text": "Ok, Fine..."
-		},
-		{
 			"sound": "daveDialogue",
 			"speed": 0.05,
-			"portrait": "tvdiamore",
+			"portrait": "tvdiamore"
+		},
+		{
+			"expression": "talk",
+			"text": "Can you get out of my farm please? I don't even know who you guys are, and I get a lot of people stealing my corn.",
 			"boxState": "normal",
+			"sound": "bmabDialogue",
+			"speed": 0.05,
+			"portrait": "ibmabdialogue"
+		},
+		{
+			"expression": "confused",
+			"text": "Hmmmmm let me think about it... Uhhhhhhhhhhhhh..",
+			"boxState": "normal",
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee"
+		},
+		{
+			"expression": "clueless",
+			"text": "No!",
+			"boxState": "normal",
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee"
+		},
+		{
+			"expression": "clueless",
+			"text": "Instead, I'm going to rap battle you again!",
+			"boxState": "normal",
+			"sound": "bfDialogue",
+			"speed": 0.05,
+			"portrait": "beefee"
+		},
+		{
+			"expression": "huh",
+			"text": "Ok, Fine...",
+			"boxState": "normal",
+			"sound": "bmabDialogue",
+			"speed": 0.05,
+			"portrait": "ibmabdialogue"
+		},
+		{
 			"expression": "pissed",
-			"text": "I can't even do anything about this anymore."
+			"text": "I can't even do anything about this anymore.",
+			"boxState": "normal",
+			"sound": "daveDialogue",
+			"speed": 0.05,
+			"portrait": "tvdiamore"
 		}
 	]
 }
